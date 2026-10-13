@@ -1,0 +1,83 @@
+{
+  "updated": "2026-10-13",
+  "date": "2026-10-13",
+  "slug": "blog/vpn-leak-test",
+  "type": "post",
+  "title": "VPN Leak Test: How to Check for IP, DNS & WebRTC Leaks",
+  "description": "How to test your VPN for leaks in five minutes: check your IP address, DNS requests, WebRTC and IPv6, what each result means and how to fix any leaks you find.",
+  "h1": "How to test your VPN for IP, DNS and WebRTC leaks",
+  "eyebrow": "How-to · Security",
+  "intro": "A VPN is only useful if your traffic actually goes through it. A leak test takes a few minutes and tells you whether your real IP address or DNS lookups are slipping out.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1548092372-0d1bd40894a3",
+    "alt": "Close-up of a laptop screen glowing blue and white",
+    "credit": "Philipp Katzenberger",
+    "creditUrl": "https://unsplash.com/@fantasyflip"
+  },
+  "keywords": [
+    "vpn leak test",
+    "dns leak test",
+    "webrtc leak",
+    "ip leak",
+    "ipv6 leak",
+    "dns leak",
+    "check vpn working",
+    "is my vpn working"
+  ],
+  "cardText": "Check your IP, DNS, WebRTC and IPv6 in five minutes, and fix what you find.",
+  "sections": [
+    {
+      "h2": "Before you start",
+      "html": "<p>With the VPN <em>off</em>, note your public IP address and approximate location using any “what is my IP” page. Then connect to a VPN server, ideally in another region, and run the checks below.</p>"
+    },
+    {
+      "h2": "1. IP address check",
+      "html": "<p>Reload the IP checker. It should now show the VPN server’s IP address and location, not yours. If it still shows your real IP, the VPN isn’t routing your traffic: reconnect, try another server or reinstall the app.</p>"
+    },
+    {
+      "h2": "2. DNS leak check",
+      "html": "<p>DNS is how your device turns names like example.com into IP addresses. If those lookups go to your internet provider while the VPN is on, they can reveal which sites you visit. Use a DNS leak test page (many VPN providers and independent sites offer one): the servers listed should belong to your VPN provider, not your internet provider.</p><p><strong>Fix:</strong> turn on the app’s DNS leak protection, use the VPN’s own DNS servers, and disable any custom DNS set on your device or router.</p>"
+    },
+    {
+      "h2": "3. WebRTC leak check",
+      "html": "<p>WebRTC lets browsers make real-time audio and video connections, and can expose IP addresses to websites. A WebRTC leak test shows which addresses your browser reveals. Only the VPN’s address (or local private addresses) should appear.</p><p><strong>Fix:</strong> use your VPN’s browser extension if it includes WebRTC protection, or adjust browser privacy settings.</p>"
+    },
+    {
+      "h2": "4. IPv6 leak check",
+      "html": "<p>If your internet connection has IPv6 but your VPN only tunnels IPv4, IPv6 traffic may bypass the VPN. Look for your real IPv6 address on the IP checker. <strong>Fix:</strong> enable IPv6 leak protection in the app, or use a VPN that supports IPv6.</p>"
+    },
+    {
+      "h2": "5. Kill switch test",
+      "html": "<p>While connected, briefly disconnect your Wi‑Fi or force-quit the VPN service and check that websites won’t load until the VPN reconnects. If they do, the kill switch is off or not working. See <a href=\"/vpn-features-explained/\">VPN features explained</a>.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How do I know my VPN is working?",
+      "a": "Check that your public IP address changes to the VPN server’s, then run DNS and WebRTC leak tests. All should show the VPN, not your internet provider."
+    },
+    {
+      "q": "Do I need to run leak tests often?",
+      "a": "Test when you first set up a VPN, after app or system updates and when you change networks or browsers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Choosing the VPN that’s right for you, EFF Surveillance Self-Defense",
+      "url": "https://ssd.eff.org/module/choosing-vpn-thats-right-you"
+    },
+    {
+      "title": "WebRTC, MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API"
+    },
+    {
+      "title": "Domain Name System (DNS), Cloudflare Learning Center",
+      "url": "https://www.cloudflare.com/learning/dns/what-is-dns/"
+    }
+  ],
+  "related": [
+    "vpn-features-explained",
+    "what-is-a-vpn",
+    "blog/wireguard-vs-openvpn"
+  ]
+}

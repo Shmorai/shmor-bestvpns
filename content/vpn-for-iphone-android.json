@@ -1,0 +1,67 @@
+{
+  "updated": "2026-10-13",
+  "slug": "vpn-for-iphone-android",
+  "title": "VPN for iPhone & Android: Setup, Always-on & Tips",
+  "description": "How to use a VPN on iPhone and Android: installing an app, always-on VPN settings, battery and data use, and how iCloud Private Relay differs.",
+  "keywords": [
+    "vpn for iphone",
+    "vpn for android",
+    "mobile vpn",
+    "vpn app",
+    "iphone vpn settings",
+    "android always on vpn",
+    "vpn for ipad",
+    "icloud private relay",
+    "vpn on phone",
+    "vpn for mobile"
+  ],
+  "cardText": "Setting up a VPN on your phone, always-on settings, battery use and Private Relay.",
+  "eyebrow": "iPhone & Android",
+  "h1": "VPNs for iPhone and Android",
+  "intro": "Your phone joins more networks than any other device, so it’s where a VPN is often most useful. Here’s how to set one up properly and keep it on.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1423784346385-c1d4dac9893a",
+    "alt": "Silhouette of a person holding a smartphone against a bright window",
+    "credit": "Gilles Lambert",
+    "creditUrl": "https://unsplash.com/@gilleslambert"
+  },
+  "searchPlaceholder": "Search mobile VPN guides…",
+  "sections": [
+    {
+      "h2": "Setting up a VPN on your phone",
+      "html": "<ol><li>Install your provider’s app from the App Store or Google Play (check the developer name matches the provider).</li>\n<li>Sign in and allow the app to add a VPN configuration when your phone asks.</li>\n<li>Turn on auto-connect, ideally for all networks or at least untrusted Wi‑Fi.</li>\n<li>Enable the kill switch where available.</li></ol><p>On iPhone and iPad, you’ll see VPN settings under Settings → VPN once an app is installed. On Android, look under Settings → Network &amp; internet → VPN (wording varies by manufacturer).</p>"
+    },
+    {
+      "h2": "Keep it on: always-on VPN",
+      "html": "<p>Android has built-in <strong>Always-on VPN</strong> and <strong>Block connections without VPN</strong> options for each VPN app, which act as a system-level kill switch. On iPhone, VPN apps typically use an on-demand or auto-connect setting to reconnect automatically. Check your provider’s help pages for the recommended settings on your device.</p>"
+    },
+    {
+      "h2": "Battery, data and speed",
+      "html": "<p>Encryption uses a little extra battery and adds a small amount of data overhead. Modern protocols such as WireGuard are designed to be efficient and to reconnect quickly when you move between Wi‑Fi and mobile data. IKEv2 is also good at handling network changes.</p>"
+    },
+    {
+      "h2": "Is iCloud Private Relay a VPN?",
+      "html": "<p>Not quite. iCloud Private Relay, part of Apple’s paid iCloud+ subscription, hides your IP address and encrypts browsing in Safari (plus some other traffic), using two separate relays. It doesn’t cover all apps and doesn’t let you choose a country, so it won’t replace a VPN for travel or for protecting every app.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a VPN on my phone?",
+      "a": "It’s most useful on public Wi‑Fi, when travelling, or if you want to hide browsing from your mobile or internet provider. On your own mobile data at home, the benefit is smaller."
+    },
+    {
+      "q": "Why does my iPhone VPN keep disconnecting?",
+      "a": "Common causes are battery-saving settings, switching networks, or the app being closed. Turn on the app’s auto-connect or on-demand option, update the app and try a different protocol."
+    },
+    {
+      "q": "Are VPN apps in app stores safe?",
+      "a": "Not automatically. Check the developer name, the privacy policy and whether the provider has an independent audit. Be especially careful with free VPN apps."
+    }
+  ],
+  "related": [
+    "free-vpn",
+    "public-wifi-security",
+    "vpn-for-travel",
+    "vpn-features-explained"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "updated": "2026-10-13",
+  "slug": "vpn-for-streaming",
+  "nav": "Streaming",
+  "navOrder": 2,
+  "title": "VPN for Streaming: Netflix, BBC iPlayer & Travel Rules",
+  "description": "Using a VPN for streaming: what’s allowed, why services block VPNs, EU portability rules and how to watch your own subscriptions on smart TVs and Fire TV.",
+  "keywords": [
+    "vpn for streaming",
+    "streaming vpn",
+    "vpn for netflix",
+    "netflix vpn",
+    "vpn for bbc iplayer",
+    "iplayer abroad",
+    "watch tv abroad",
+    "vpn for disney plus",
+    "vpn for sports streaming",
+    "netflix proxy error"
+  ],
+  "cardText": "What’s allowed, why streaming services block VPNs and how to watch your own subscriptions.",
+  "eyebrow": "Streaming",
+  "h1": "VPNs for streaming: what works and what’s allowed",
+  "intro": "A VPN can help you reach your own streaming services when you travel and keep your viewing private on shared networks. But streaming services set their own rules about location, and many block VPN servers.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1",
+    "alt": "A television screen showing a grid of streaming app icons",
+    "credit": "Nicolas J Leclercq",
+    "creditUrl": "https://unsplash.com/@nicolasjleclercq"
+  },
+  "searchPlaceholder": "Search streaming guides…",
+  "sections": [
+    {
+      "h2": "Know the rules first",
+      "html": "<p>Streaming services license shows and films country by country, so their catalogues differ by location. Their terms of use generally say you may only watch content in the country where it’s offered, and many actively detect and block VPN and proxy servers, sometimes showing a “proxy” or “unblocker” error.</p><p>Using a VPN is legal in the US, UK and EU, but using one to reach another country’s catalogue can break a service’s terms, and the service may block or restrict your account. We don’t encourage that. The legitimate uses below are what this guide covers.</p>"
+    },
+    {
+      "h2": "Legitimate reasons to use a VPN for streaming",
+      "html": "<ul><li><strong>Privacy on shared networks:</strong> keep what you watch private on hotel, dorm or café Wi‑Fi.</li>\n<li><strong>Avoiding throttling:</strong> some internet providers slow particular kinds of traffic. A VPN hides what the traffic is, which can help in some cases.</li>\n<li><strong>Reaching your home services while travelling:</strong> some services and broadcasters restrict access outside your home country even for paying subscribers. Check each service’s travel policy before relying on a VPN.</li></ul>"
+    },
+    {
+      "h2": "Streaming in Europe: the EU portability rule",
+      "html": "<p>If you live in an EU country, the EU’s Portability Regulation lets you use many paid online content subscriptions (such as streaming and sports services) while you are <em>temporarily</em> in another EU country, with the same content as at home. No VPN is needed for this. Free services may opt in but don’t have to.</p><p>UK residents are no longer covered after Brexit, so access to UK services from the EU, and EU services from the UK, depends on each provider’s policy. TV licence rules also still apply in the UK: for example, you need a TV Licence to watch or download BBC programmes on iPlayer.</p>"
+    },
+    {
+      "h2": "What to look for in a streaming VPN",
+      "html": "<ul><li>Apps for your TV devices: Fire TV, Android TV/Google TV, Apple TV, or router support for devices without apps. See <a href=\"/vpn-router-smart-tv/\">VPN on routers and smart TVs</a>.</li>\n<li>Fast, nearby servers and modern protocols such as WireGuard, for HD and 4K without buffering.</li>\n<li>Servers in your home country, if you travel.</li>\n<li>Split tunnelling, so your streaming app can go direct while other apps use the VPN, or the other way round.</li>\n<li>A refund window, so you can test with your own services before committing.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it illegal to use a VPN for Netflix?",
+      "a": "Using a VPN is legal in the US, UK and EU. But Netflix’s terms say content can vary by location, and using a VPN to reach other countries’ catalogues can breach its terms. Netflix may block VPN connections."
+    },
+    {
+      "q": "Why does my streaming app say I’m using a VPN or proxy?",
+      "a": "Many services keep lists of IP addresses used by VPN servers and block them. Turn the VPN off, or use split tunnelling to send that app outside the VPN, and try again."
+    },
+    {
+      "q": "Can I watch my home subscriptions on holiday?",
+      "a": "EU residents can use many paid subscriptions anywhere in the EU under the EU portability rules. Outside that, it depends on each service’s policy. Check the service’s help pages before you travel."
+    }
+  ],
+  "related": [
+    "vpn-router-smart-tv",
+    "vpn-for-travel",
+    "is-a-vpn-legal",
+    "vpn-features-explained"
+  ]
+}

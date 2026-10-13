@@ -1,0 +1,74 @@
+{
+  "updated": "2026-10-13",
+  "date": "2026-10-13",
+  "slug": "blog/wireguard-vs-openvpn",
+  "type": "post",
+  "title": "WireGuard vs OpenVPN: Which VPN Protocol Should You Use?",
+  "description": "WireGuard vs OpenVPN compared: how each protocol works, speed and security, privacy considerations, and which to choose in your VPN app for everyday use.",
+  "h1": "WireGuard vs OpenVPN: which VPN protocol should you use?",
+  "eyebrow": "Protocols · Explainer",
+  "intro": "Most VPN apps let you choose a protocol, and the two you’ll see most are WireGuard and OpenVPN. Both are open source and well regarded. Here’s how they differ.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1683322499436-f4383dd59f5a",
+    "alt": "Bundle of blue network cables connected together",
+    "credit": "Scott Rodgerson",
+    "creditUrl": "https://unsplash.com/@scottrodgerson"
+  },
+  "keywords": [
+    "wireguard vs openvpn",
+    "wireguard",
+    "openvpn",
+    "vpn protocol",
+    "best vpn protocol",
+    "nordlynx",
+    "lightway"
+  ],
+  "cardText": "How the two most common VPN protocols differ, and which to pick in your app.",
+  "sections": [
+    {
+      "h2": "WireGuard in brief",
+      "html": "<ul><li>A modern protocol designed to be simple, fast and easy to audit, with a much smaller codebase than older VPN protocols.</li>\n<li>Uses a fixed set of modern cryptography (including ChaCha20, Poly1305 and Curve25519), so there are no weak options to misconfigure.</li>\n<li>Built into the Linux kernel and available on all major platforms.</li>\n<li>Reconnects quickly when you change networks, which suits phones.</li></ul>"
+    },
+    {
+      "h2": "OpenVPN in brief",
+      "html": "<ul><li>Long-established and open source, using TLS for key exchange and widely supported by VPN providers and routers.</li>\n<li>Highly configurable, with many cipher options.</li>\n<li>Runs over UDP (usually faster) or TCP. OpenVPN over TCP port 443 looks similar to normal secure web traffic, which can help on networks that block VPNs.</li></ul>"
+    },
+    {
+      "h2": "Privacy: the WireGuard IP question",
+      "html": "<p>Standard WireGuard keeps a peer’s IP address in server memory while connected, which privacy-focused providers address in different ways, for example with double-NAT systems or by assigning temporary addresses. Some providers’ own protocols, such as NordVPN’s NordLynx, are built on WireGuard for this reason. Others have developed their own protocols, such as ExpressVPN’s Lightway. Look for provider documentation and audits.</p>"
+    },
+    {
+      "h2": "Which should you choose?",
+      "html": "<ul><li><strong>Everyday use, streaming and mobile:</strong> WireGuard or the provider’s WireGuard-based protocol.</li>\n<li><strong>Networks that block VPNs:</strong> OpenVPN over TCP, or your provider’s obfuscation mode.</li>\n<li><strong>Routers:</strong> whichever your router supports; WireGuard often performs better on modest hardware.</li></ul><p>Many apps have an “automatic” setting that picks for you, which is fine for most people. More on settings in <a href=\"/vpn-features-explained/\">VPN features explained</a>.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is WireGuard more secure than OpenVPN?",
+      "a": "Both are considered secure when properly implemented. WireGuard’s smaller codebase and fixed modern cryptography make it easier to audit; OpenVPN has a much longer track record."
+    },
+    {
+      "q": "Is WireGuard faster than OpenVPN?",
+      "a": "In many cases, yes, particularly on phones and routers, though results depend on your connection, server and device."
+    }
+  ],
+  "sources": [
+    {
+      "title": "WireGuard: fast, modern, secure VPN tunnel (official site)",
+      "url": "https://www.wireguard.com/"
+    },
+    {
+      "title": "WireGuard protocol and cryptography",
+      "url": "https://www.wireguard.com/protocol/"
+    },
+    {
+      "title": "OpenVPN Community",
+      "url": "https://openvpn.net/community/"
+    }
+  ],
+  "related": [
+    "vpn-features-explained",
+    "best-vpn",
+    "blog/vpn-leak-test"
+  ]
+}

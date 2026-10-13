@@ -1,0 +1,63 @@
+{
+  "updated": "2026-10-13",
+  "slug": "public-wifi-security",
+  "title": "Public Wi‑Fi Security: Do You Need a VPN in Cafés?",
+  "description": "How safe is café, hotel and airport Wi‑Fi? The real risks, what HTTPS already protects, when a VPN helps and simple habits for shared networks.",
+  "keywords": [
+    "public wifi security",
+    "public wi-fi security",
+    "is public wifi safe",
+    "hotel wifi security",
+    "airport wifi",
+    "cafe wifi",
+    "coffee shop wifi",
+    "evil twin wifi",
+    "vpn on public wifi",
+    "free wifi safety"
+  ],
+  "cardText": "The real risks of café, hotel and airport Wi‑Fi, what HTTPS covers and when a VPN helps.",
+  "eyebrow": "Public Wi‑Fi",
+  "h1": "Public Wi‑Fi security: when you need a VPN",
+  "intro": "Public Wi‑Fi is safer than it used to be, because most websites now use HTTPS. But shared networks still carry real risks, and a VPN is one of the simplest ways to reduce them.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1545184180-25d471fe75eb",
+    "alt": "Man drinking coffee while using a laptop in a café",
+    "credit": "Kyle Loftus",
+    "creditUrl": "https://unsplash.com/@kyleloftusstudios"
+  },
+  "searchPlaceholder": "Search Wi‑Fi safety guides…",
+  "sections": [
+    {
+      "h2": "What the risks really are",
+      "html": "<ul><li><strong>Fake hotspots (“evil twins”):</strong> a network named like the café’s or hotel’s, set up to capture traffic or show fake login pages.</li>\n<li><strong>Snooping on unencrypted traffic:</strong> anything not protected by HTTPS, including some apps and DNS lookups, can be seen by others on the network or by whoever runs it.</li>\n<li><strong>Exposed devices:</strong> file sharing and other services on your laptop may be visible to others on the same network.</li></ul>"
+    },
+    {
+      "h2": "What HTTPS already protects",
+      "html": "<p>When a site uses HTTPS (the padlock in your browser), the content of your connection to it is encrypted, even on public Wi‑Fi. The network can still see which sites you connect to, though, and not every app or connection is encrypted. A VPN encrypts everything between your device and the VPN server and hides the sites you visit from the local network.</p>"
+    },
+    {
+      "h2": "Simple habits for shared networks",
+      "html": "<ul><li>Confirm the exact network name with staff.</li>\n<li>Prefer your phone’s mobile data or personal hotspot for banking.</li>\n<li>Use a VPN with auto-connect on untrusted Wi‑Fi.</li>\n<li>Mark public networks as “public” on Windows, and turn off file sharing.</li>\n<li>Keep your device and apps updated, and use two-factor authentication on important accounts.</li>\n<li>Never enter passwords on a captive portal (the Wi‑Fi login page) that asks for more than it should.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it safe to use public Wi‑Fi without a VPN?",
+      "a": "For browsing HTTPS websites, the risk is lower than it used to be, but the network can still see which sites you visit and some traffic may be unencrypted. A VPN adds protection, especially for travel and frequent public Wi‑Fi use."
+    },
+    {
+      "q": "Can someone hack my phone through public Wi‑Fi?",
+      "a": "Direct attacks are uncommon on up-to-date devices, but fake hotspots and phishing login pages are real risks. Keep software updated, check the network name and use a VPN."
+    },
+    {
+      "q": "Is hotel Wi‑Fi safe for online banking?",
+      "a": "Banking apps and sites use strong encryption, but for peace of mind use mobile data or a VPN on hotel Wi‑Fi, and turn on two-factor authentication."
+    }
+  ],
+  "related": [
+    "vpn-for-travel",
+    "what-is-a-vpn",
+    "vpn-for-iphone-android",
+    "vpn-features-explained"
+  ]
+}

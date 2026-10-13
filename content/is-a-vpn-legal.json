@@ -1,0 +1,64 @@
+{
+  "updated": "2026-10-13",
+  "slug": "is-a-vpn-legal",
+  "title": "Is a VPN Legal? VPN Laws in the US, UK, EU and Abroad",
+  "description": "Is using a VPN legal? VPN rules in the US, UK and EU, countries that restrict VPNs, what you still can’t do with one and how to check before you travel.",
+  "keywords": [
+    "is a vpn legal",
+    "are vpns legal",
+    "vpn legal uk",
+    "vpn legal us",
+    "vpn legal eu",
+    "vpn laws",
+    "countries where vpn is illegal",
+    "vpn ban",
+    "vpn in china",
+    "vpn in uae",
+    "vpn in russia"
+  ],
+  "cardText": "VPN rules in the US, UK and EU, countries that restrict VPNs and what’s still off-limits.",
+  "eyebrow": "VPN laws",
+  "h1": "Is a VPN legal?",
+  "intro": "In the US, the UK and EU countries, using a VPN is legal. But what you do over a VPN still has to be legal, and some countries restrict VPNs themselves. Here’s the overview, as of October 2026.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1634176866089-b633f4aec882",
+    "alt": "View of the Earth from space at night with glowing cities",
+    "credit": "Anirudh",
+    "creditUrl": "https://unsplash.com/@lanirudhreddy"
+  },
+  "searchPlaceholder": "Search VPN law guides…",
+  "sections": [
+    {
+      "h2": "US, UK and EU",
+      "html": "<p>Using a VPN is legal for individuals and businesses in the United States, the United Kingdom and EU member states. Millions of people use them for work, privacy and security. However:</p><ul><li>Anything illegal without a VPN is still illegal with one.</li>\n<li>Websites and services can set terms that forbid or limit VPN use, such as streaming services and online stores, and can block or restrict accounts.</li>\n<li>Employers, schools and network owners can set their own rules on their networks and devices.</li></ul>"
+    },
+    {
+      "h2": "Countries that restrict VPNs",
+      "html": "<p>Some countries ban VPNs, allow only government-approved services, or penalise using a VPN to commit other offences. Countries often named include China, Russia, Iran, Belarus, Turkmenistan and North Korea, and the United Arab Emirates penalises using a VPN to commit crimes. Rules change and enforcement varies, so this is not a complete or up-to-date list.</p><p>Before you travel, check official advice such as GOV.UK foreign travel advice or the US State Department’s country information, and follow local laws. See also <a href=\"/vpn-for-travel/\">VPNs for travel</a>.</p>"
+    },
+    {
+      "h2": "Using a VPN responsibly",
+      "html": "<ul><li>Respect the terms of services you use, and local laws wherever you are.</li>\n<li>Don’t use a VPN to get around age checks, bans or safety measures.</li>\n<li>For work, follow your employer’s policy.</li></ul><p>This page is general information, not legal advice.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it legal to use a VPN in the UK?",
+      "a": "Yes. Using a VPN is legal in the UK. Illegal activity remains illegal, and services can set their own terms about VPN use."
+    },
+    {
+      "q": "Is it legal to use a VPN in the US?",
+      "a": "Yes. VPNs are legal in the United States. Using one doesn’t make illegal activity legal or override a service’s terms."
+    },
+    {
+      "q": "Can I get in trouble for using a VPN abroad?",
+      "a": "In some countries, yes. A few restrict or ban VPNs, or penalise using them to commit other offences. Check official travel advice for every country you visit."
+    }
+  ],
+  "related": [
+    "vpn-for-travel",
+    "what-is-a-vpn",
+    "vpn-for-streaming",
+    "no-logs-vpn"
+  ]
+}

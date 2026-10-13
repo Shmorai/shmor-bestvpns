@@ -1,0 +1,79 @@
+{
+  "updated": "2026-10-13",
+  "date": "2026-10-13",
+  "slug": "blog/vpn-vs-tor-vs-proxy",
+  "type": "post",
+  "title": "VPN vs Tor vs Proxy: What’s the Difference?",
+  "description": "VPN vs Tor vs proxy explained: how each routes your traffic, what they hide, speed and privacy trade-offs, and which to use when.",
+  "h1": "VPN vs Tor vs proxy: what’s the difference?",
+  "eyebrow": "Privacy · Explainer",
+  "intro": "VPNs, Tor and proxies all route your traffic through someone else’s server, but they protect you in very different ways. Here’s how to pick the right one.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1695668548342-c0c1ad479aee",
+    "alt": "Rack of servers in a server room",
+    "credit": "Kevin Ache",
+    "creditUrl": "https://unsplash.com/@kevinache"
+  },
+  "keywords": [
+    "vpn vs tor",
+    "vpn vs proxy",
+    "tor vs proxy",
+    "tor browser",
+    "proxy server",
+    "socks5 proxy",
+    "anonymous browsing",
+    "onion routing"
+  ],
+  "cardText": "How VPNs, Tor and proxies route your traffic, and which to use when.",
+  "sections": [
+    {
+      "h2": "At a glance",
+      "html": "<table><thead><tr><th></th><th>VPN</th><th>Tor</th><th>Proxy</th></tr></thead><tbody><tr><td>Covers</td><td>All apps on the device</td><td>Tor Browser (or configured apps)</td><td>Usually one app or browser</td></tr><tr><td>Encryption</td><td>Yes, to the VPN server</td><td>Yes, in layers across the Tor network</td><td>Often none by default</td></tr><tr><td>Who you trust</td><td>The VPN provider</td><td>No single relay sees both who you are and what you visit</td><td>The proxy operator</td></tr><tr><td>Speed</td><td>Usually fast</td><td>Slower</td><td>Varies</td></tr><tr><td>Cost</td><td>Mostly paid</td><td>Free</td><td>Free or paid</td></tr></tbody></table>"
+    },
+    {
+      "h2": "VPN",
+      "html": "<p>A VPN encrypts all your device’s traffic to a server run by the provider, which then forwards it to the internet. It’s fast and easy, suits everyday privacy, public Wi‑Fi, travel and streaming, but you have to trust the provider. See <a href=\"/no-logs-vpn/\">no-logs VPNs</a>.</p>"
+    },
+    {
+      "h2": "Tor",
+      "html": "<p>Tor, run by the non-profit Tor Project and volunteers, sends your traffic through three relays, encrypted in layers (“onion routing”), so no single relay knows both who you are and what you’re visiting. It’s free and much stronger for anonymity, but slower, and some sites block or challenge Tor users. The Tor Browser also resists fingerprinting, which a VPN alone doesn’t.</p>"
+    },
+    {
+      "h2": "Proxy",
+      "html": "<p>A proxy forwards traffic from a single app, often a browser, through another server so websites see the proxy’s IP address. Common HTTP and SOCKS5 proxies don’t encrypt your traffic by themselves, so the network you’re on can still see it. Proxies are fine for simple tasks but are not a privacy tool. Free proxies in particular may log or alter traffic.</p>"
+    },
+    {
+      "h2": "Which should you use?",
+      "html": "<ul><li><strong>Everyday privacy, public Wi‑Fi, travel, streaming:</strong> a reputable VPN.</li>\n<li><strong>Strong anonymity:</strong> Tor Browser, with care about what you log in to.</li>\n<li><strong>Quick IP change for one app, no sensitive data:</strong> a proxy can do the job.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Tor better than a VPN?",
+      "a": "For anonymity, Tor is stronger because no single relay knows both who you are and what you visit. For speed, streaming and protecting every app on your device, a VPN is more practical."
+    },
+    {
+      "q": "Can I use a VPN and Tor together?",
+      "a": "Yes. Connecting to a VPN before opening Tor Browser hides Tor use from your internet provider. It adds trust in the VPN provider and doesn’t usually add much anonymity on its own."
+    }
+  ],
+  "sources": [
+    {
+      "title": "About Tor Browser, The Tor Project",
+      "url": "https://tb-manual.torproject.org/about/"
+    },
+    {
+      "title": "Tor Project support",
+      "url": "https://support.torproject.org/"
+    },
+    {
+      "title": "Choosing the VPN that’s right for you, EFF Surveillance Self-Defense",
+      "url": "https://ssd.eff.org/module/choosing-vpn-thats-right-you"
+    }
+  ],
+  "related": [
+    "no-logs-vpn",
+    "what-is-a-vpn",
+    "blog/vpn-leak-test"
+  ]
+}

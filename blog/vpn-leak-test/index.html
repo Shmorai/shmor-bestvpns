@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VPN Leak Test: How to Check for IP, DNS &amp; WebRTC Leaks</title>
+<meta name="description" content="How to test your VPN for leaks in five minutes: check your IP address, DNS requests, WebRTC and IPv6, what each result means and how to fix any leaks you find.">
+<link rel="canonical" href="https://bestvpns.shmor.ai/blog/vpn-leak-test/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2026-10-13"><meta property="article:modified_time" content="2026-10-13">
+<link rel="alternate" type="application/rss+xml" title="BestVPNs Blog" href="/blog/feed.xml">
+<meta property="og:site_name" content="BestVPNs">
+<meta property="og:title" content="VPN Leak Test: How to Check for IP, DNS &amp; WebRTC Leaks">
+<meta property="og:description" content="How to test your VPN for leaks in five minutes: check your IP address, DNS requests, WebRTC and IPv6, what each result means and how to fix any leaks you find.">
+<meta property="og:url" content="https://bestvpns.shmor.ai/blog/vpn-leak-test/">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://images.unsplash.com/photo-1548092372-0d1bd40894a3?w=1200&amp;h=630&amp;fit=crop&amp;q=70&amp;auto=format">
+<meta property="og:image:alt" content="Close-up of a laptop screen glowing blue and white">
+<link rel="preconnect" href="https://images.unsplash.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#090C12">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://bestvpns.shmor.ai/blog/vpn-leak-test/#page","url":"https://bestvpns.shmor.ai/blog/vpn-leak-test/","name":"VPN Leak Test: How to Check for IP, DNS & WebRTC Leaks","description":"How to test your VPN for leaks in five minutes: check your IP address, DNS requests, WebRTC and IPv6, what each result means and how to fix any leaks you find.","isPartOf":{"@id":"https://bestvpns.shmor.ai/#website"},"dateModified":"2026-10-13","inLanguage":"en"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bestvpns.shmor.ai/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://bestvpns.shmor.ai/blog/"},{"@type":"ListItem","position":3,"name":"How to test your VPN for IP, DNS and WebRTC leaks","item":"https://bestvpns.shmor.ai/blog/vpn-leak-test/"}]},{"@type":"BlogPosting","@id":"https://bestvpns.shmor.ai/blog/vpn-leak-test/#post","mainEntityOfPage":{"@id":"https://bestvpns.shmor.ai/blog/vpn-leak-test/#page"},"headline":"How to test your VPN for IP, DNS and WebRTC leaks","description":"How to test your VPN for leaks in five minutes: check your IP address, DNS requests, WebRTC and IPv6, what each result means and how to fix any leaks you find.","datePublished":"2026-10-13","dateModified":"2026-10-13","inLanguage":"en","image":"https://images.unsplash.com/photo-1548092372-0d1bd40894a3?w=1200&h=630&fit=crop&q=70&auto=format","keywords":"vpn leak test, dns leak test, webrtc leak, ip leak, ipv6 leak, dns leak, check vpn working, is my vpn working","author":{"@type":"Organization","name":"BestVPNs editorial team","url":"https://bestvpns.shmor.ai/"},"publisher":{"@type":"Organization","name":"BestVPNs","url":"https://bestvpns.shmor.ai/"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I know my VPN is working?","acceptedAnswer":{"@type":"Answer","text":"Check that your public IP address changes to the VPN server’s, then run DNS and WebRTC leak tests. All should show the VPN, not your internet provider."}},{"@type":"Question","name":"Do I need to run leak tests often?","acceptedAnswer":{"@type":"Answer","text":"Test when you first set up a VPN, after app or system updates and when you change networks or browsers."}}]}]}</script>
+</head>
+<!-- BestVPNs design. tools/build.js fills each double-brace placeholder: head, nav, main, footer_nav, site_name, year, body_class. -->
+<body class="page page-blog">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <div class="brand-wrap">
+      <a class="brand" href="/" aria-label="BestVPNs home">
+        <svg class="bv-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="10" fill="#141A24"/>
+          <path d="M20 7.5l10 3.8v7.6c0 6.6-4.2 11.2-10 13.6-5.8-2.4-10-7-10-13.6v-7.6z" fill="none" stroke="#A3E635" stroke-width="2.2" stroke-linejoin="round"/>
+          <circle cx="20" cy="18" r="2.8" fill="#A3E635"/>
+          <path d="M18.7 19.6h2.6l.9 5.6h-4.4z" fill="#A3E635"/>
+        </svg>
+        <span class="bv-word">Best<b>VPNs</b></span>
+      </a>
+      <a class="by" href="https://shmor.ai/">by Shmor.ai</a>
+    </div>
+    <nav class="nav" data-nav aria-label="Main"><a href="/best-vpn/">VPN checklist</a><a href="/vpn-for-streaming/">Streaming</a><a href="/no-logs-vpn/">Privacy</a><a href="/vpn-for-travel/">Travel</a><a href="/free-vpn/">Free VPNs</a><a href="/what-is-a-vpn/">VPN basics</a><a href="/blog/">Blog</a></nav>
+    <a class="head-cta" href="/best-vpn/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>VPN checklist</a>
+    <button class="menu" data-menu aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main id="main">
+<nav class="crumbs wrap" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li><a href="/blog/">Blog</a></li><li aria-current="page">How to test your VPN for IP, DNS and WebRTC leaks</li></ol></nav>
+<section class="hero hero-page has-img"><img class="hero-img" src="https://images.unsplash.com/photo-1548092372-0d1bd40894a3?w=1600&amp;q=70&amp;auto=format" srcset="https://images.unsplash.com/photo-1548092372-0d1bd40894a3?w=800&amp;q=70&amp;auto=format 800w, https://images.unsplash.com/photo-1548092372-0d1bd40894a3?w=1200&amp;q=70&amp;auto=format 1200w, https://images.unsplash.com/photo-1548092372-0d1bd40894a3?w=1600&amp;q=70&amp;auto=format 1600w, https://images.unsplash.com/photo-1548092372-0d1bd40894a3?w=2200&amp;q=70&amp;auto=format 2200w" sizes="100vw" alt="Close-up of a laptop screen glowing blue and white" fetchpriority="high" decoding="async"><div class="wrap">
+  <p class="eyebrow">How-to · Security</p>
+  <h1>How to test your VPN for IP, DNS and WebRTC leaks</h1>
+  <p class="lede">A VPN is only useful if your traffic actually goes through it. A leak test takes a few minutes and tells you whether your real IP address or DNS lookups are slipping out.</p>
+  <p class="post-byline">By the BestVPNs editorial team · <time datetime="2026-10-13">13 October 2026</time> · 2 min read</p>
+  
+  
+</div><p class="photo-credit">Photo: <a href="https://unsplash.com/@fantasyflip?utm_source=shmor&utm_medium=referral" rel="nofollow noopener" target="_blank">Philipp Katzenberger</a> on <a href="https://unsplash.com/?utm_source=shmor&utm_medium=referral" rel="nofollow noopener" target="_blank">Unsplash</a></p></section>
+
+
+
+<section class="content"><div class="wrap content-grid"><nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#before-you-start">Before you start</a></li><li><a href="#1-ip-address-check">1. IP address check</a></li><li><a href="#2-dns-leak-check">2. DNS leak check</a></li><li><a href="#3-webrtc-leak-check">3. WebRTC leak check</a></li><li><a href="#4-ipv6-leak-check">4. IPv6 leak check</a></li><li><a href="#5-kill-switch-test">5. Kill switch test</a></li></ol></nav><article class="prose">
+    <h2 id="before-you-start">Before you start</h2>
+    <p>With the VPN <em>off</em>, note your public IP address and approximate location using any “what is my IP” page. Then connect to a VPN server, ideally in another region, and run the checks below.</p>
+    <h2 id="1-ip-address-check">1. IP address check</h2>
+    <p>Reload the IP checker. It should now show the VPN server’s IP address and location, not yours. If it still shows your real IP, the VPN isn’t routing your traffic: reconnect, try another server or reinstall the app.</p>
+    <h2 id="2-dns-leak-check">2. DNS leak check</h2>
+    <p>DNS is how your device turns names like example.com into IP addresses. If those lookups go to your internet provider while the VPN is on, they can reveal which sites you visit. Use a DNS leak test page (many VPN providers and independent sites offer one): the servers listed should belong to your VPN provider, not your internet provider.</p><p><strong>Fix:</strong> turn on the app’s DNS leak protection, use the VPN’s own DNS servers, and disable any custom DNS set on your device or router.</p>
+    <h2 id="3-webrtc-leak-check">3. WebRTC leak check</h2>
+    <p>WebRTC lets browsers make real-time audio and video connections, and can expose IP addresses to websites. A WebRTC leak test shows which addresses your browser reveals. Only the VPN’s address (or local private addresses) should appear.</p><p><strong>Fix:</strong> use your VPN’s browser extension if it includes WebRTC protection, or adjust browser privacy settings.</p>
+    <h2 id="4-ipv6-leak-check">4. IPv6 leak check</h2>
+    <p>If your internet connection has IPv6 but your VPN only tunnels IPv4, IPv6 traffic may bypass the VPN. Look for your real IPv6 address on the IP checker. <strong>Fix:</strong> enable IPv6 leak protection in the app, or use a VPN that supports IPv6.</p>
+    <h2 id="5-kill-switch-test">5. Kill switch test</h2>
+    <p>While connected, briefly disconnect your Wi‑Fi or force-quit the VPN service and check that websites won’t load until the VPN reconnects. If they do, the kill switch is off or not working. See <a href="/vpn-features-explained/">VPN features explained</a>.</p>
+    <p class="updated">Last updated: 13 October 2026</p>
+  </article></div></section>
+<section class="faq"><div class="wrap"><h2>Frequently asked questions</h2>
+    <details><summary>How do I know my VPN is working?</summary><div>Check that your public IP address changes to the VPN server’s, then run DNS and WebRTC leak tests. All should show the VPN, not your internet provider.</div></details>
+    <details><summary>Do I need to run leak tests often?</summary><div>Test when you first set up a VPN, after app or system updates and when you change networks or browsers.</div></details></div></section>
+<section class="sources"><div class="wrap"><h2>Sources and official links</h2><ul><li><a href="https://ssd.eff.org/module/choosing-vpn-thats-right-you" rel="noopener" target="_blank">Choosing the VPN that’s right for you, EFF Surveillance Self-Defense</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API" rel="noopener" target="_blank">WebRTC, MDN Web Docs</a></li><li><a href="https://www.cloudflare.com/learning/dns/what-is-dns/" rel="noopener" target="_blank">Domain Name System (DNS), Cloudflare Learning Center</a></li></ul></div></section>
+<section class="related"><div class="wrap"><h2>Keep exploring</h2><div class="grid">
+    <a class="card has-img" href="/vpn-features-explained/"><img class="card-img" src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format" srcset="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&amp;h=240&amp;fit=crop&amp;q=70&amp;auto=format 400w, https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format 600w, https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=900&amp;h=540&amp;fit=crop&amp;q=70&amp;auto=format 900w" sizes="(max-width: 640px) 100vw, 380px" width="600" height="360" alt="Close-up of a blue network cable" loading="lazy" decoding="async"><h3>VPN features explained in plain English</h3><p>Kill switch, split tunnelling, protocols, multi-hop, obfuscation and dedicated IPs in plain English.</p><span class="cta">Explore →</span></a>
+    <a class="card has-img" href="/what-is-a-vpn/"><img class="card-img" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format" srcset="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&amp;h=240&amp;fit=crop&amp;q=70&amp;auto=format 400w, https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format 600w, https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=900&amp;h=540&amp;fit=crop&amp;q=70&amp;auto=format 900w" sizes="(max-width: 640px) 100vw, 380px" width="600" height="360" alt="Earth seen from space with city lights and network lines" loading="lazy" decoding="async"><h3>VPN basics</h3><p>How VPNs work, what they protect, what they can’t do and whether you need one.</p><span class="cta">Explore →</span></a>
+    <a class="card has-img" href="/blog/wireguard-vs-openvpn/"><img class="card-img" src="https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format" srcset="https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?w=400&amp;h=240&amp;fit=crop&amp;q=70&amp;auto=format 400w, https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format 600w, https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?w=900&amp;h=540&amp;fit=crop&amp;q=70&amp;auto=format 900w" sizes="(max-width: 640px) 100vw, 380px" width="600" height="360" alt="Bundle of blue network cables connected together" loading="lazy" decoding="async"><h3>WireGuard vs OpenVPN: which VPN protocol should you use?</h3><p>How the two most common VPN protocols differ, and which to pick in your app.</p><span class="cta">Explore →</span></a></div></div></section>
+<section class="cta-band"><div class="wrap"><h2>Search BestVPNs</h2><form class="search search-lg" action="/search/" role="search">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+  <input name="q" type="search" placeholder="Try “VPN for Netflix abroad” or “kill switch”" aria-label="Search BestVPNs">
+  <button type="submit">Search</button>
+</form></div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-cols">
+      <div>
+        <a class="brand" href="/"><span class="bv-word">Best<b>VPNs</b></span></a>
+        <p>Plain-English VPN guides for privacy, streaming, gaming and travel, for readers in the US, UK and Europe. Part of the <a href="https://shmor.ai/">Shmor.ai</a> network: search more, do less.</p>
+      </div>
+      <div><h4>VPN guides</h4><ul><li><a href="/best-vpn/">VPN checklist</a></li><li><a href="/vpn-for-streaming/">Streaming</a></li><li><a href="/no-logs-vpn/">Privacy</a></li><li><a href="/vpn-for-travel/">Travel</a></li><li><a href="/free-vpn/">Free VPNs</a></li><li><a href="/what-is-a-vpn/">VPN basics</a></li><li><a href="/blog/">Blog</a></li><li><a href="/is-a-vpn-legal/">Is a VPN legal?</a></li><li><a href="/public-wifi-security/">Public Wi‑Fi security: when you need a VPN</a></li><li><a href="/vpn-features-explained/">VPN features explained in plain English</a></li><li><a href="/vpn-for-gaming/">VPNs for gaming: when they help, when they hurt</a></li><li><a href="/vpn-for-iphone-android/">VPNs for iPhone and Android</a></li><li><a href="/vpn-for-windows-mac/">VPNs for Windows, Mac and Linux</a></li><li><a href="/vpn-router-smart-tv/">VPNs on routers, smart TVs and Fire TV</a></li></ul></div>
+      <div><h4>Shmor.ai</h4><ul>
+        <li><a href="https://shmor.ai/">All Shmor marketplaces</a></li>
+        <li><a href="https://traveldeals.shmor.ai/">TravelDeals: holidays &amp; flights</a></li>
+        <li><a href="https://shmor.ai/about/">About Shmor</a></li>
+        <li><a href="https://shmor.ai/contact/">Contact</a></li>
+        <li><a href="https://shmor.ai/partners/">Advertise with us</a></li>
+      </ul></div>
+      <div><h4>Legal</h4><ul>
+        <li><a href="https://shmor.ai/privacy/">Privacy policy</a></li>
+        <li><a href="https://shmor.ai/cookies/">Cookie policy</a></li>
+        <li><a href="https://shmor.ai/terms/">Terms of use</a></li>
+        <li><a href="https://shmor.ai/affiliate-disclosure/">How we make money</a></li>
+      </ul></div>
+    </div>
+    <p class="disclosure">BestVPNs is a free comparison and guide service, not a VPN provider: you subscribe directly with the provider, under their terms. Some links are affiliate links, so we may earn a commission at no extra cost to you. Prices, features and server locations are set by providers and can change. A VPN does not make you anonymous and does not make illegal activity legal. © 2026 Shmor.ai</p>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

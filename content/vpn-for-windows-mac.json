@@ -1,0 +1,63 @@
+{
+  "updated": "2026-10-13",
+  "slug": "vpn-for-windows-mac",
+  "title": "VPN for Windows & Mac: Setup Guide for PC and Laptop",
+  "description": "Using a VPN on Windows, Mac and Linux: apps vs built-in settings, kill switches, browser extensions, sharing a VPN with a console and common fixes.",
+  "keywords": [
+    "vpn for windows",
+    "vpn for mac",
+    "vpn for pc",
+    "vpn for laptop",
+    "vpn for linux",
+    "windows vpn settings",
+    "mac vpn settings",
+    "vpn browser extension",
+    "vpn chrome extension",
+    "vpn not connecting"
+  ],
+  "cardText": "Apps vs built-in settings, browser extensions, kill switches and fixing connection problems.",
+  "eyebrow": "Windows · Mac · Linux",
+  "h1": "VPNs for Windows, Mac and Linux",
+  "intro": "On a computer you can use your provider’s app, the system’s built-in VPN settings or a browser extension. Here’s the difference, and how to make sure everything is really protected.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8",
+    "alt": "MacBook Pro on a desk showing lines of code",
+    "credit": "Caspar Camille Rubin",
+    "creditUrl": "https://unsplash.com/@casparrubin"
+  },
+  "searchPlaceholder": "Search desktop VPN guides…",
+  "sections": [
+    {
+      "h2": "App, built-in settings or browser extension?",
+      "html": "<ul><li><strong>Provider app (recommended):</strong> the easiest way to get a kill switch, leak protection, split tunnelling and automatic updates.</li>\n<li><strong>Built-in VPN settings:</strong> Windows and macOS can connect to some VPN types (such as IKEv2) without an app, using details from your provider. Useful for work VPNs, but you may lose app-only features.</li>\n<li><strong>Browser extension:</strong> usually protects only that browser’s traffic, not your other apps. Some providers’ extensions act as a proxy rather than a full VPN.</li></ul>"
+    },
+    {
+      "h2": "Settings worth turning on",
+      "html": "<ul><li>Kill switch (sometimes called “network lock”).</li>\n<li>Launch and connect on start-up.</li>\n<li>DNS leak protection, and IPv6 leak protection if your connection uses IPv6.</li>\n<li>Split tunnelling for apps that don’t work well over the VPN, such as some banking or work tools.</li></ul><p>Then <a href=\"/blog/vpn-leak-test/\">run a leak test</a> to check.</p>"
+    },
+    {
+      "h2": "Common problems and fixes",
+      "html": "<ul><li><strong>Won’t connect:</strong> try another server or protocol, check your firewall or antivirus, and update the app.</li>\n<li><strong>Slow speeds:</strong> try a closer server and WireGuard; compare with a speed test without the VPN.</li>\n<li><strong>Sites blocking you:</strong> some sites block VPN IP addresses; try another server or split tunnelling.</li>\n<li><strong>Work laptop:</strong> follow your employer’s IT policy. Installing another VPN may conflict with the company VPN.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do Windows and Mac have a built-in VPN?",
+      "a": "They have built-in VPN clients that can connect to a VPN server, but not a VPN service. You still need a provider (or your employer’s VPN) to connect to."
+    },
+    {
+      "q": "Is a VPN browser extension enough?",
+      "a": "Usually not for full protection: most extensions only cover that browser. Use the full app if you want every app on your computer protected."
+    },
+    {
+      "q": "Can I share my laptop’s VPN with a games console?",
+      "a": "Yes. Windows and macOS can share an internet connection over Ethernet or Wi‑Fi, so a console can use the laptop’s VPN connection. A VPN router is a simpler long-term option."
+    }
+  ],
+  "related": [
+    "vpn-features-explained",
+    "vpn-for-gaming",
+    "vpn-router-smart-tv",
+    "best-vpn"
+  ]
+}

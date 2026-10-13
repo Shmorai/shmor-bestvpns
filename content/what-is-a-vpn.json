@@ -1,0 +1,69 @@
+{
+  "updated": "2026-10-13",
+  "slug": "what-is-a-vpn",
+  "nav": "VPN basics",
+  "navOrder": 6,
+  "title": "What Is a VPN? How VPNs Work, Explained Simply",
+  "description": "What is a VPN and how does it work? A plain-English guide to VPN tunnels, IP addresses and encryption, what a VPN protects, what it can’t do, and who needs one.",
+  "keywords": [
+    "what is a vpn",
+    "how does a vpn work",
+    "vpn meaning",
+    "do i need a vpn",
+    "what does a vpn do",
+    "vpn explained",
+    "ip address",
+    "hide ip address",
+    "change ip address",
+    "private browsing"
+  ],
+  "cardText": "How VPNs work, what they protect, what they can’t do and whether you need one.",
+  "eyebrow": "VPN basics",
+  "h1": "What is a VPN, and do you need one?",
+  "intro": "A VPN creates an encrypted tunnel between your device and a server run by the VPN provider. Here’s what that means in practice, in plain English.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
+    "alt": "Earth seen from space with city lights and network lines",
+    "credit": "NASA",
+    "creditUrl": "https://unsplash.com/@nasa"
+  },
+  "searchPlaceholder": "Search VPN basics…",
+  "sections": [
+    {
+      "h2": "How a VPN works",
+      "html": "<ol><li>You open the VPN app and connect to a server, for example in your own country.</li>\n<li>Your device and that server agree encryption keys and set up an encrypted tunnel.</li>\n<li>Your internet traffic travels through the tunnel to the VPN server, then out to the internet.</li>\n<li>Websites see the VPN server’s IP address, not yours. Your internet provider or Wi‑Fi owner sees encrypted traffic going to a VPN server.</li></ol>"
+    },
+    {
+      "h2": "What a VPN protects",
+      "html": "<ul><li>Your browsing from your internet provider and the owner of the network you’re on.</li>\n<li>Your IP address (and so your approximate location) from websites and other users.</li>\n<li>Your traffic on untrusted <a href=\"/public-wifi-security/\">public Wi‑Fi</a>.</li></ul>"
+    },
+    {
+      "h2": "What a VPN can’t do",
+      "html": "<ul><li>It doesn’t make you anonymous: accounts, cookies and browser fingerprinting can still identify you.</li>\n<li>It doesn’t stop malware or phishing on its own, though some VPNs block known bad domains.</li>\n<li>It doesn’t hide your activity from the VPN provider, which is why <a href=\"/no-logs-vpn/\">no-logs policies</a> matter.</li>\n<li>It doesn’t make illegal activity legal, or override a service’s terms.</li></ul>"
+    },
+    {
+      "h2": "Who needs a VPN?",
+      "html": "<p>A VPN is worth considering if you often use public Wi‑Fi, travel, want to keep your browsing private from your internet provider, or want to reach home services from abroad. Companies also use VPNs so staff can reach internal systems securely. If you mainly browse at home over HTTPS sites, a VPN is a nice-to-have rather than essential. Ready to choose? Use our <a href=\"/best-vpn/\">VPN checklist</a>.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does VPN stand for?",
+      "a": "Virtual private network. It’s a private, encrypted connection running over a public network such as the internet."
+    },
+    {
+      "q": "Does a VPN hide my IP address?",
+      "a": "Yes. Websites and apps see the VPN server’s IP address. Leaks can occasionally expose your real IP, so it’s worth running a <a href=\"/blog/vpn-leak-test/\">leak test</a>."
+    },
+    {
+      "q": "Does a VPN slow down my internet?",
+      "a": "A little, usually. The impact depends on your connection, the protocol and how far away the server is. A nearby server and WireGuard usually keep the slowdown small."
+    }
+  ],
+  "related": [
+    "best-vpn",
+    "public-wifi-security",
+    "is-a-vpn-legal",
+    "blog/vpn-vs-tor-vs-proxy"
+  ]
+}

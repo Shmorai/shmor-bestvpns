@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Is a VPN? How VPNs Work, Explained Simply</title>
+<meta name="description" content="What is a VPN and how does it work? A plain-English guide to VPN tunnels, IP addresses and encryption, what a VPN protects, what it can’t do, and who needs one.">
+<link rel="canonical" href="https://bestvpns.shmor.ai/what-is-a-vpn/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<link rel="alternate" type="application/rss+xml" title="BestVPNs Blog" href="/blog/feed.xml">
+<meta property="og:site_name" content="BestVPNs">
+<meta property="og:title" content="What Is a VPN? How VPNs Work, Explained Simply">
+<meta property="og:description" content="What is a VPN and how does it work? A plain-English guide to VPN tunnels, IP addresses and encryption, what a VPN protects, what it can’t do, and who needs one.">
+<meta property="og:url" content="https://bestvpns.shmor.ai/what-is-a-vpn/">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&amp;h=630&amp;fit=crop&amp;q=70&amp;auto=format">
+<meta property="og:image:alt" content="Earth seen from space with city lights and network lines">
+<link rel="preconnect" href="https://images.unsplash.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#090C12">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://bestvpns.shmor.ai/what-is-a-vpn/#page","url":"https://bestvpns.shmor.ai/what-is-a-vpn/","name":"What Is a VPN? How VPNs Work, Explained Simply","description":"What is a VPN and how does it work? A plain-English guide to VPN tunnels, IP addresses and encryption, what a VPN protects, what it can’t do, and who needs one.","isPartOf":{"@id":"https://bestvpns.shmor.ai/#website"},"dateModified":"2026-10-13","inLanguage":"en"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bestvpns.shmor.ai/"},{"@type":"ListItem","position":2,"name":"VPN basics","item":"https://bestvpns.shmor.ai/what-is-a-vpn/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does VPN stand for?","acceptedAnswer":{"@type":"Answer","text":"Virtual private network. It’s a private, encrypted connection running over a public network such as the internet."}},{"@type":"Question","name":"Does a VPN hide my IP address?","acceptedAnswer":{"@type":"Answer","text":"Yes. Websites and apps see the VPN server’s IP address. Leaks can occasionally expose your real IP, so it’s worth running a leak test."}},{"@type":"Question","name":"Does a VPN slow down my internet?","acceptedAnswer":{"@type":"Answer","text":"A little, usually. The impact depends on your connection, the protocol and how far away the server is. A nearby server and WireGuard usually keep the slowdown small."}}]}]}</script>
+</head>
+<!-- BestVPNs design. tools/build.js fills each double-brace placeholder: head, nav, main, footer_nav, site_name, year, body_class. -->
+<body class="page page-what-is-a-vpn">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap bar">
+    <div class="brand-wrap">
+      <a class="brand" href="/" aria-label="BestVPNs home">
+        <svg class="bv-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="10" fill="#141A24"/>
+          <path d="M20 7.5l10 3.8v7.6c0 6.6-4.2 11.2-10 13.6-5.8-2.4-10-7-10-13.6v-7.6z" fill="none" stroke="#A3E635" stroke-width="2.2" stroke-linejoin="round"/>
+          <circle cx="20" cy="18" r="2.8" fill="#A3E635"/>
+          <path d="M18.7 19.6h2.6l.9 5.6h-4.4z" fill="#A3E635"/>
+        </svg>
+        <span class="bv-word">Best<b>VPNs</b></span>
+      </a>
+      <a class="by" href="https://shmor.ai/">by Shmor.ai</a>
+    </div>
+    <nav class="nav" data-nav aria-label="Main"><a href="/best-vpn/">VPN checklist</a><a href="/vpn-for-streaming/">Streaming</a><a href="/no-logs-vpn/">Privacy</a><a href="/vpn-for-travel/">Travel</a><a href="/free-vpn/">Free VPNs</a><a href="/what-is-a-vpn/">VPN basics</a><a href="/blog/">Blog</a></nav>
+    <a class="head-cta" href="/best-vpn/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>VPN checklist</a>
+    <button class="menu" data-menu aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main id="main">
+<nav class="crumbs wrap" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">VPN basics</li></ol></nav>
+<section class="hero hero-page has-img"><img class="hero-img" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&amp;q=70&amp;auto=format" srcset="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&amp;q=70&amp;auto=format 800w, https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&amp;q=70&amp;auto=format 1200w, https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&amp;q=70&amp;auto=format 1600w, https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=2200&amp;q=70&amp;auto=format 2200w" sizes="100vw" alt="Earth seen from space with city lights and network lines" fetchpriority="high" decoding="async"><div class="wrap">
+  <p class="eyebrow">VPN basics</p>
+  <h1>What is a VPN, and do you need one?</h1>
+  <p class="lede">A VPN creates an encrypted tunnel between your device and a server run by the VPN provider. Here’s what that means in practice, in plain English.</p>
+  
+  <form class="search " action="/search/" role="search">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+  <input name="q" type="search" placeholder="Search VPN basics…" aria-label="Search BestVPNs">
+  <button type="submit">Search</button>
+</form>
+  
+</div><p class="photo-credit">Photo: <a href="https://unsplash.com/@nasa?utm_source=shmor&utm_medium=referral" rel="nofollow noopener" target="_blank">NASA</a> on <a href="https://unsplash.com/?utm_source=shmor&utm_medium=referral" rel="nofollow noopener" target="_blank">Unsplash</a></p></section>
+
+
+
+<section class="content"><div class="wrap content-grid"><nav class="toc" aria-label="On this page"><p>On this page</p><ol><li><a href="#how-a-vpn-works">How a VPN works</a></li><li><a href="#what-a-vpn-protects">What a VPN protects</a></li><li><a href="#what-a-vpn-can-t-do">What a VPN can’t do</a></li><li><a href="#who-needs-a-vpn">Who needs a VPN?</a></li></ol></nav><article class="prose">
+    <h2 id="how-a-vpn-works">How a VPN works</h2>
+    <ol><li>You open the VPN app and connect to a server, for example in your own country.</li>
+<li>Your device and that server agree encryption keys and set up an encrypted tunnel.</li>
+<li>Your internet traffic travels through the tunnel to the VPN server, then out to the internet.</li>
+<li>Websites see the VPN server’s IP address, not yours. Your internet provider or Wi‑Fi owner sees encrypted traffic going to a VPN server.</li></ol>
+    <h2 id="what-a-vpn-protects">What a VPN protects</h2>
+    <ul><li>Your browsing from your internet provider and the owner of the network you’re on.</li>
+<li>Your IP address (and so your approximate location) from websites and other users.</li>
+<li>Your traffic on untrusted <a href="/public-wifi-security/">public Wi‑Fi</a>.</li></ul>
+    <h2 id="what-a-vpn-can-t-do">What a VPN can’t do</h2>
+    <ul><li>It doesn’t make you anonymous: accounts, cookies and browser fingerprinting can still identify you.</li>
+<li>It doesn’t stop malware or phishing on its own, though some VPNs block known bad domains.</li>
+<li>It doesn’t hide your activity from the VPN provider, which is why <a href="/no-logs-vpn/">no-logs policies</a> matter.</li>
+<li>It doesn’t make illegal activity legal, or override a service’s terms.</li></ul>
+    <h2 id="who-needs-a-vpn">Who needs a VPN?</h2>
+    <p>A VPN is worth considering if you often use public Wi‑Fi, travel, want to keep your browsing private from your internet provider, or want to reach home services from abroad. Companies also use VPNs so staff can reach internal systems securely. If you mainly browse at home over HTTPS sites, a VPN is a nice-to-have rather than essential. Ready to choose? Use our <a href="/best-vpn/">VPN checklist</a>.</p>
+    <p class="updated">Last updated: 13 October 2026</p>
+  </article></div></section>
+<section class="faq"><div class="wrap"><h2>Frequently asked questions</h2>
+    <details><summary>What does VPN stand for?</summary><div>Virtual private network. It’s a private, encrypted connection running over a public network such as the internet.</div></details>
+    <details><summary>Does a VPN hide my IP address?</summary><div>Yes. Websites and apps see the VPN server’s IP address. Leaks can occasionally expose your real IP, so it’s worth running a <a href="/blog/vpn-leak-test/">leak test</a>.</div></details>
+    <details><summary>Does a VPN slow down my internet?</summary><div>A little, usually. The impact depends on your connection, the protocol and how far away the server is. A nearby server and WireGuard usually keep the slowdown small.</div></details></div></section>
+
+<section class="related"><div class="wrap"><h2>Keep exploring</h2><div class="grid">
+    <a class="card has-img" href="/best-vpn/"><img class="card-img" src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format" srcset="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&amp;h=240&amp;fit=crop&amp;q=70&amp;auto=format 400w, https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format 600w, https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=900&amp;h=540&amp;fit=crop&amp;q=70&amp;auto=format 900w" sizes="(max-width: 640px) 100vw, 380px" width="600" height="360" alt="Red padlock resting on a black computer keyboard" loading="lazy" decoding="async"><h3>VPN checklist</h3><p>The step-by-step checklist for comparing any VPN: privacy, security, speed, devices and price.</p><span class="cta">Explore →</span></a>
+    <a class="card has-img" href="/public-wifi-security/"><img class="card-img" src="https://images.unsplash.com/photo-1545184180-25d471fe75eb?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format" srcset="https://images.unsplash.com/photo-1545184180-25d471fe75eb?w=400&amp;h=240&amp;fit=crop&amp;q=70&amp;auto=format 400w, https://images.unsplash.com/photo-1545184180-25d471fe75eb?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format 600w, https://images.unsplash.com/photo-1545184180-25d471fe75eb?w=900&amp;h=540&amp;fit=crop&amp;q=70&amp;auto=format 900w" sizes="(max-width: 640px) 100vw, 380px" width="600" height="360" alt="Man drinking coffee while using a laptop in a café" loading="lazy" decoding="async"><h3>Public Wi‑Fi security: when you need a VPN</h3><p>The real risks of café, hotel and airport Wi‑Fi, what HTTPS covers and when a VPN helps.</p><span class="cta">Explore →</span></a>
+    <a class="card has-img" href="/is-a-vpn-legal/"><img class="card-img" src="https://images.unsplash.com/photo-1634176866089-b633f4aec882?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format" srcset="https://images.unsplash.com/photo-1634176866089-b633f4aec882?w=400&amp;h=240&amp;fit=crop&amp;q=70&amp;auto=format 400w, https://images.unsplash.com/photo-1634176866089-b633f4aec882?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format 600w, https://images.unsplash.com/photo-1634176866089-b633f4aec882?w=900&amp;h=540&amp;fit=crop&amp;q=70&amp;auto=format 900w" sizes="(max-width: 640px) 100vw, 380px" width="600" height="360" alt="View of the Earth from space at night with glowing cities" loading="lazy" decoding="async"><h3>Is a VPN legal?</h3><p>VPN rules in the US, UK and EU, countries that restrict VPNs and what’s still off-limits.</p><span class="cta">Explore →</span></a>
+    <a class="card has-img" href="/blog/vpn-vs-tor-vs-proxy/"><img class="card-img" src="https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format" srcset="https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?w=400&amp;h=240&amp;fit=crop&amp;q=70&amp;auto=format 400w, https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?w=600&amp;h=360&amp;fit=crop&amp;q=70&amp;auto=format 600w, https://images.unsplash.com/photo-1695668548342-c0c1ad479aee?w=900&amp;h=540&amp;fit=crop&amp;q=70&amp;auto=format 900w" sizes="(max-width: 640px) 100vw, 380px" width="600" height="360" alt="Rack of servers in a server room" loading="lazy" decoding="async"><h3>VPN vs Tor vs proxy: what’s the difference?</h3><p>How VPNs, Tor and proxies route your traffic, and which to use when.</p><span class="cta">Explore →</span></a></div></div></section>
+<section class="cta-band"><div class="wrap"><h2>Search BestVPNs</h2><form class="search search-lg" action="/search/" role="search">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+  <input name="q" type="search" placeholder="Search VPN basics…" aria-label="Search BestVPNs">
+  <button type="submit">Search</button>
+</form></div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-cols">
+      <div>
+        <a class="brand" href="/"><span class="bv-word">Best<b>VPNs</b></span></a>
+        <p>Plain-English VPN guides for privacy, streaming, gaming and travel, for readers in the US, UK and Europe. Part of the <a href="https://shmor.ai/">Shmor.ai</a> network: search more, do less.</p>
+      </div>
+      <div><h4>VPN guides</h4><ul><li><a href="/best-vpn/">VPN checklist</a></li><li><a href="/vpn-for-streaming/">Streaming</a></li><li><a href="/no-logs-vpn/">Privacy</a></li><li><a href="/vpn-for-travel/">Travel</a></li><li><a href="/free-vpn/">Free VPNs</a></li><li><a href="/what-is-a-vpn/">VPN basics</a></li><li><a href="/blog/">Blog</a></li><li><a href="/is-a-vpn-legal/">Is a VPN legal?</a></li><li><a href="/public-wifi-security/">Public Wi‑Fi security: when you need a VPN</a></li><li><a href="/vpn-features-explained/">VPN features explained in plain English</a></li><li><a href="/vpn-for-gaming/">VPNs for gaming: when they help, when they hurt</a></li><li><a href="/vpn-for-iphone-android/">VPNs for iPhone and Android</a></li><li><a href="/vpn-for-windows-mac/">VPNs for Windows, Mac and Linux</a></li><li><a href="/vpn-router-smart-tv/">VPNs on routers, smart TVs and Fire TV</a></li></ul></div>
+      <div><h4>Shmor.ai</h4><ul>
+        <li><a href="https://shmor.ai/">All Shmor marketplaces</a></li>
+        <li><a href="https://traveldeals.shmor.ai/">TravelDeals: holidays &amp; flights</a></li>
+        <li><a href="https://shmor.ai/about/">About Shmor</a></li>
+        <li><a href="https://shmor.ai/contact/">Contact</a></li>
+        <li><a href="https://shmor.ai/partners/">Advertise with us</a></li>
+      </ul></div>
+      <div><h4>Legal</h4><ul>
+        <li><a href="https://shmor.ai/privacy/">Privacy policy</a></li>
+        <li><a href="https://shmor.ai/cookies/">Cookie policy</a></li>
+        <li><a href="https://shmor.ai/terms/">Terms of use</a></li>
+        <li><a href="https://shmor.ai/affiliate-disclosure/">How we make money</a></li>
+      </ul></div>
+    </div>
+    <p class="disclosure">BestVPNs is a free comparison and guide service, not a VPN provider: you subscribe directly with the provider, under their terms. Some links are affiliate links, so we may earn a commission at no extra cost to you. Prices, features and server locations are set by providers and can change. A VPN does not make you anonymous and does not make illegal activity legal. © 2026 Shmor.ai</p>
+  </div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

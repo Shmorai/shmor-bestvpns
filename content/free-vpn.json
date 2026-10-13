@@ -1,0 +1,65 @@
+{
+  "updated": "2026-10-13",
+  "slug": "free-vpn",
+  "nav": "Free VPNs",
+  "navOrder": 5,
+  "title": "Free VPN vs Paid VPN: Are Free VPNs Safe to Use?",
+  "description": "Are free VPNs safe? How free VPNs make money, the limits of free plans from trusted providers, red flags to avoid and when paying for a VPN is worth it.",
+  "keywords": [
+    "free vpn",
+    "best free vpn",
+    "are free vpns safe",
+    "free vs paid vpn",
+    "cheap vpn",
+    "vpn free trial",
+    "free vpn for iphone",
+    "free vpn for android",
+    "free vpn for pc",
+    "vpn deals"
+  ],
+  "cardText": "How free VPNs make money, safe free plans, red flags and when paying is worth it.",
+  "eyebrow": "Free vs paid",
+  "h1": "Free VPN vs paid VPN: which is safe?",
+  "intro": "Running VPN servers costs money, so every free VPN pays for itself somehow. Some free plans from established providers are perfectly reasonable; others make money from the very data you wanted to protect.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1614064643392-8dd713152ae9",
+    "alt": "Pink and silver padlock resting on a black computer keyboard",
+    "credit": "FlyD",
+    "creditUrl": "https://unsplash.com/@flyd2069"
+  },
+  "searchPlaceholder": "Search free VPN guides…",
+  "sections": [
+    {
+      "h2": "How free VPNs pay for themselves",
+      "html": "<ul><li><strong>Freemium plans:</strong> an established paid VPN offers a limited free tier (fewer servers, lower speeds, data caps or one device) hoping you’ll upgrade. This is the safest kind of free VPN. Proton VPN, for example, has long offered a free plan.</li>\n<li><strong>Advertising:</strong> some free apps show ads, which may involve ad tracking.</li>\n<li><strong>Data collection:</strong> some free VPN apps have been found by researchers to include tracking libraries or to collect and share browsing data, the opposite of what a VPN is for.</li></ul>"
+    },
+    {
+      "h2": "Red flags in a free VPN",
+      "html": "<ul><li>No clear company name, address or ownership information.</li>\n<li>A vague privacy policy, or one that allows sharing data with “partners”.</li>\n<li>No independent audit, and no open-source apps.</li>\n<li>Requests for app permissions it doesn’t need, such as contacts.</li>\n<li>Unlimited everything, free forever, with no obvious way the company makes money.</li></ul>"
+    },
+    {
+      "h2": "When a paid VPN is worth it",
+      "html": "<p>If you use a VPN every day, stream, travel or want a VPN on several devices, a paid plan usually gives you faster servers, more locations, more devices and stronger support. Compare the renewal price, not just the introductory offer, and use the refund window to test it. Our <a href=\"/best-vpn/\">VPN checklist</a> covers what to compare.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are free VPNs safe?",
+      "a": "Some are. Free tiers from established providers with audited no-logs policies are generally reasonable for light use. Be very wary of free VPN apps from unknown companies, which may collect and sell your data."
+    },
+    {
+      "q": "Is there a completely free VPN with no limits?",
+      "a": "Be sceptical of any VPN that claims unlimited free service with no catch, because servers and bandwidth cost money. Reputable free plans usually limit speed, servers or devices."
+    },
+    {
+      "q": "Do VPNs offer free trials?",
+      "a": "Some do, especially through mobile app stores, and many paid VPNs offer a money-back guarantee instead. Read the refund conditions before you sign up."
+    }
+  ],
+  "related": [
+    "best-vpn",
+    "no-logs-vpn",
+    "vpn-for-iphone-android",
+    "what-is-a-vpn"
+  ]
+}

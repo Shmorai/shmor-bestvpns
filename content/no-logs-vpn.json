@@ -1,0 +1,71 @@
+{
+  "updated": "2026-10-13",
+  "slug": "no-logs-vpn",
+  "nav": "Privacy",
+  "navOrder": 3,
+  "title": "No-Logs VPN: What It Means and How Audits Prove It",
+  "description": "What a no-logs VPN really means: types of VPN logs, how independent audits work, RAM-only servers, jurisdiction and ownership questions.",
+  "keywords": [
+    "no logs vpn",
+    "no-logs vpn",
+    "vpn logs",
+    "vpn audit",
+    "private vpn",
+    "vpn for privacy",
+    "online privacy",
+    "internet privacy",
+    "vpn jurisdiction",
+    "five eyes",
+    "ram only servers",
+    "anonymous vpn"
+  ],
+  "cardText": "Types of VPN logs, independent audits, RAM-only servers and ownership questions to ask.",
+  "eyebrow": "Privacy",
+  "h1": "No-logs VPNs: what it means and how to check",
+  "intro": "When you use a VPN, the provider can see what your internet provider used to see. A no-logs policy is its promise not to record that. Here’s how to tell a strong promise from a marketing line.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
+    "alt": "Network cables plugged into rows of servers in a data centre",
+    "credit": "Taylor Vick",
+    "creditUrl": "https://unsplash.com/@tvick"
+  },
+  "searchPlaceholder": "Search privacy guides…",
+  "sections": [
+    {
+      "h2": "The kinds of data a VPN could log",
+      "html": "<ul><li><strong>Activity logs:</strong> websites visited, DNS requests, files downloaded. A privacy VPN should never keep these.</li>\n<li><strong>Connection logs:</strong> your real IP address, connection times, the server used, data transferred. Strong no-logs VPNs avoid storing anything that links a session to you.</li>\n<li><strong>Account data:</strong> email, payment records and support tickets. Most providers keep some of this to run the service. A few let you sign up with only an account number and pay in cash or cryptocurrency.</li>\n<li><strong>Aggregate data:</strong> such as total load on a server, which can’t identify individuals.</li></ul>"
+    },
+    {
+      "h2": "How independent audits work",
+      "html": "<p>Several providers have hired outside security and accounting firms to check their no-logs claims. Audits vary a lot, so read the report or summary and check:</p><ul><li><strong>Scope:</strong> was it the privacy policy, the server infrastructure, the apps, or all of them?</li>\n<li><strong>Date:</strong> an audit is a snapshot. Recent and repeated audits are more reassuring.</li>\n<li><strong>Access:</strong> did auditors inspect live servers and configurations, or rely on interviews and documents?</li></ul><p>Real-world events can also be evidence: some providers have had servers seized or received legal demands and been able to show that no user data was stored.</p>"
+    },
+    {
+      "h2": "Infrastructure that supports no-logs",
+      "html": "<ul><li><strong>RAM-only (diskless) servers:</strong> run from memory, so data is wiped on reboot and nothing is written to a hard drive.</li>\n<li><strong>Owned vs rented servers:</strong> providers that control their hardware rely less on third-party data centres.</li>\n<li><strong>Open-source apps:</strong> anyone can inspect the code.</li></ul>"
+    },
+    {
+      "h2": "Jurisdiction and ownership",
+      "html": "<p>A VPN company must follow the laws where it’s based and where its servers are. Some people prefer providers outside the “Five Eyes”, “Nine Eyes” or “Fourteen Eyes” intelligence-sharing alliances, though a genuinely log-free service has little to hand over wherever it’s based. Ownership matters too: check who owns the brand, because several well-known VPNs share a parent company.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are no-logs VPNs really no-logs?",
+      "a": "You can’t verify it yourself, which is why independent audits, RAM-only servers, transparency reports and real-world tests such as court cases matter. Treat unaudited claims with caution."
+    },
+    {
+      "q": "Can the police get my data from a VPN?",
+      "a": "They can request it with the right legal process. What they get depends on what the provider stores. A provider that keeps no activity or connection logs has little or nothing to hand over."
+    },
+    {
+      "q": "Is a VPN enough to protect my privacy?",
+      "a": "No. Combine it with a privacy-friendly browser, tracker blocking, strong unique passwords, two-factor authentication and care about what you share while logged in to accounts."
+    }
+  ],
+  "related": [
+    "best-vpn",
+    "vpn-features-explained",
+    "blog/vpn-vs-tor-vs-proxy",
+    "free-vpn"
+  ]
+}

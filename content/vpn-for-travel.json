@@ -1,0 +1,65 @@
+{
+  "updated": "2026-10-13",
+  "slug": "vpn-for-travel",
+  "nav": "Travel",
+  "navOrder": 4,
+  "title": "VPN for Travel: Stay Safe Online Abroad & on Holiday",
+  "description": "Why travellers use a VPN: safer hotel and airport Wi‑Fi, reaching home banking and services abroad, and checking VPN rules in the countries you visit.",
+  "keywords": [
+    "vpn for travel",
+    "travel vpn",
+    "vpn abroad",
+    "vpn on holiday",
+    "vpn on vacation",
+    "hotel wifi vpn",
+    "airport wifi vpn",
+    "vpn for china",
+    "vpn for uae",
+    "use vpn abroad"
+  ],
+  "cardText": "Safer hotel and airport Wi‑Fi, home services abroad and the VPN rules in other countries.",
+  "eyebrow": "Travel",
+  "h1": "VPNs for travel: staying safe online abroad",
+  "intro": "Travelling means hotel Wi‑Fi, airport hotspots and logging in to banks from unfamiliar networks. A VPN adds a layer of protection and can help you reach home services, as long as it’s legal where you are.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1768793096346-6d84e93e4195",
+    "alt": "Man working on a laptop by an airport window at sunrise",
+    "credit": "Daniel Gomez",
+    "creditUrl": "https://unsplash.com/@naturelensephotographer"
+  },
+  "searchPlaceholder": "Search travel VPN guides…",
+  "sections": [
+    {
+      "h2": "Why travellers use a VPN",
+      "html": "<ul><li><strong>Untrusted Wi‑Fi:</strong> hotel, airport and café networks are shared with strangers and run by people you don’t know. A VPN encrypts your traffic before it crosses that network. See <a href=\"/public-wifi-security/\">public Wi‑Fi security</a>.</li>\n<li><strong>Home banking and services:</strong> some banks, government sites and services block or flag logins from abroad. Connecting via a server in your home country can help, but tell your bank you’re travelling too.</li>\n<li><strong>Your own subscriptions:</strong> some streaming services restrict access outside your home country. See our <a href=\"/vpn-for-streaming/\">streaming guide</a> for what’s allowed.</li></ul>"
+    },
+    {
+      "h2": "Check the rules where you’re going",
+      "html": "<p>VPNs are legal in most countries, but some restrict or regulate them, and a few penalise using one to commit other offences. Before you travel, check your government’s official travel advice for each destination, such as GOV.UK foreign travel advice or the US State Department’s country information. Read more in <a href=\"/is-a-vpn-legal/\">is a VPN legal?</a></p>"
+    },
+    {
+      "h2": "Set up before you leave",
+      "html": "<ul><li>Install and sign in to the VPN apps <em>before</em> travelling: provider websites and app stores can be hard to reach from some countries.</li>\n<li>Turn on auto-connect for untrusted Wi‑Fi and enable the kill switch.</li>\n<li>Save servers in your home country as favourites.</li>\n<li>If networks block VPNs, try another protocol or an “obfuscation” or “stealth” mode if your provider offers one.</li>\n<li>Keep a note of your provider’s support contact, in case the app won’t connect.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a VPN when travelling?",
+      "a": "It’s not essential, but it’s a sensible extra layer on shared Wi‑Fi in hotels, airports and cafés, and can help you reach banking and services from home."
+    },
+    {
+      "q": "Can I use a VPN in any country?",
+      "a": "No. Some countries restrict or regulate VPN use. Check official travel advice for every country you visit, and follow local law."
+    },
+    {
+      "q": "Is my phone’s mobile data safer than hotel Wi‑Fi?",
+      "a": "Generally, yes: mobile data connections are encrypted between your phone and the mobile network, so using your own data or hotspot is usually safer than open Wi‑Fi. A VPN adds protection on either."
+    }
+  ],
+  "related": [
+    "public-wifi-security",
+    "is-a-vpn-legal",
+    "vpn-for-iphone-android",
+    "vpn-for-streaming"
+  ]
+}

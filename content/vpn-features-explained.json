@@ -1,0 +1,68 @@
+{
+  "updated": "2026-10-13",
+  "slug": "vpn-features-explained",
+  "title": "VPN Features Explained: Kill Switch, Split Tunnelling",
+  "description": "VPN features explained in plain English: kill switch, split tunnelling, protocols, DNS leak protection, multi-hop, obfuscation and dedicated IPs.",
+  "keywords": [
+    "kill switch",
+    "vpn kill switch",
+    "split tunnelling",
+    "split tunneling",
+    "vpn protocol",
+    "wireguard",
+    "openvpn",
+    "ikev2",
+    "multi hop vpn",
+    "double vpn",
+    "obfuscated servers",
+    "dedicated ip vpn",
+    "port forwarding vpn",
+    "dns leak protection",
+    "encryption"
+  ],
+  "cardText": "Kill switch, split tunnelling, protocols, multi-hop, obfuscation and dedicated IPs in plain English.",
+  "eyebrow": "Features explained",
+  "h1": "VPN features explained in plain English",
+  "intro": "VPN apps are full of settings with technical names. Here’s what each one does, and which ones matter for you.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+    "alt": "Close-up of a blue network cable",
+    "credit": "Jordan Harrison",
+    "creditUrl": "https://unsplash.com/@jouwdan"
+  },
+  "searchPlaceholder": "Search VPN features…",
+  "sections": [
+    {
+      "h2": "The essentials",
+      "html": "<ul><li><strong>Encryption:</strong> scrambles your traffic between your device and the VPN server. Mainstream VPNs use strong, well-studied ciphers such as AES-256 or ChaCha20.</li>\n<li><strong>Kill switch:</strong> blocks internet access if the VPN disconnects, so nothing leaks over your normal connection. Some apps offer an app-level kill switch that closes chosen apps instead.</li>\n<li><strong>DNS leak protection:</strong> makes sure your domain lookups go through the VPN rather than your internet provider.</li>\n<li><strong>Auto-connect:</strong> connects whenever you join an untrusted network.</li></ul>"
+    },
+    {
+      "h2": "Protocols",
+      "html": "<table><thead><tr><th>Protocol</th><th>What to know</th></tr></thead><tbody><tr><td>WireGuard</td><td>Modern, fast and lean. Widely supported; some providers build their own protocols on it.</td></tr><tr><td>OpenVPN</td><td>Long-established and open source. Runs over UDP (faster) or TCP (better on restrictive networks).</td></tr><tr><td>IKEv2/IPsec</td><td>Reconnects well when you switch between Wi‑Fi and mobile data. Built into many operating systems.</td></tr><tr><td>Proprietary</td><td>Provider-specific protocols. Look for independent audits.</td></tr><tr><td>PPTP / L2TP</td><td>Older. PPTP is considered insecure; avoid it.</td></tr></tbody></table><p>More in <a href=\"/blog/wireguard-vs-openvpn/\">WireGuard vs OpenVPN</a>.</p>"
+    },
+    {
+      "h2": "Useful extras",
+      "html": "<ul><li><strong>Split tunnelling:</strong> choose which apps or sites use the VPN. Handy for local printers, banking apps or games.</li>\n<li><strong>Multi-hop (double VPN):</strong> routes traffic through two VPN servers. More privacy, but slower.</li>\n<li><strong>Obfuscation (stealth mode):</strong> disguises VPN traffic as ordinary web traffic, for networks that block VPNs.</li>\n<li><strong>Dedicated IP:</strong> an IP address only you use, which can reduce CAPTCHAs and help with allow-listed work systems. It’s less private than a shared IP.</li>\n<li><strong>Port forwarding:</strong> lets incoming connections reach your device, useful for some hosting or peer-to-peer uses. It’s offered by only some providers.</li>\n<li><strong>Tracker and ad blocking:</strong> DNS-level blocking of known ad, tracker and malware domains.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Should I always turn on the kill switch?",
+      "a": "For privacy, yes. It prevents your real IP address from being exposed if the VPN drops. If a particular app needs a direct connection, use split tunnelling rather than turning the kill switch off."
+    },
+    {
+      "q": "Which VPN protocol is best?",
+      "a": "For most people, WireGuard (or a provider’s protocol based on it) offers the best balance of speed and security. OpenVPN over TCP is a good fallback on networks that block VPNs."
+    },
+    {
+      "q": "Is split tunnelling safe?",
+      "a": "Yes, if you understand that apps you exclude don’t get the VPN’s protection. Exclude only apps that need it, such as local network tools."
+    }
+  ],
+  "related": [
+    "best-vpn",
+    "blog/wireguard-vs-openvpn",
+    "blog/vpn-leak-test",
+    "no-logs-vpn"
+  ]
+}

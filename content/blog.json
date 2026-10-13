@@ -1,0 +1,28 @@
+{
+  "updated": "2026-10-13",
+  "slug": "blog",
+  "type": "blog",
+  "nav": "Blog",
+  "navOrder": 7,
+  "title": "VPN Blog: Privacy Guides, Tips & How-Tos | BestVPNs",
+  "description": "VPN and privacy guides for US, UK and European readers: protocols explained, leak tests, VPN vs Tor vs proxy, and practical tips to stay safer online.",
+  "eyebrow": "Guides · How-tos · Privacy news",
+  "h1": "VPN and privacy guides",
+  "intro": "The VPN questions people are searching for right now, answered clearly and checked against official and technical sources.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1625838144804-300f3907c110",
+    "alt": "Computer monitor showing code in a dark room",
+    "credit": "Mohammad Rahmani",
+    "creditUrl": "https://unsplash.com/@afgprogrammer"
+  },
+  "search": false,
+  "listTitle": "Latest posts",
+  "keywords": [
+    "vpn blog",
+    "vpn guides",
+    "privacy guides",
+    "vpn tips",
+    "vpn news"
+  ],
+  "cardText": "VPN and privacy how-tos, explainers and tips, updated regularly."
+}

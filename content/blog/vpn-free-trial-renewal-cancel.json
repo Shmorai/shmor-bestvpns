@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Buying guide",
+  "title": "VPN Free Trials, Renewals & Cancelling: Check First",
+  "description": "VPN free trials, auto-renewals and cancelling explained for US and UK users: what to check before paying, refund rights and how to avoid surprise charges.",
+  "h1": "VPN free trials, renewals and cancelling: what to check before you pay",
+  "intro": "Long-term VPN plans and free trials can be good value, but they often renew automatically. A few checks before you enter your card details help you avoid paying for months you do not use.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1614064643392-8dd713152ae9",
+    "alt": "Pink and silver padlock resting on a black computer keyboard",
+    "credit": "FlyD",
+    "creditUrl": "https://unsplash.com/@flyd2069"
+  },
+  "keywords": [
+    "vpn free trial",
+    "cancel vpn subscription",
+    "vpn auto renewal",
+    "vpn refund",
+    "vpn money back guarantee",
+    "vpn renewal price",
+    "how to cancel vpn",
+    "vpn subscription tips"
+  ],
+  "cardText": "Free trials, auto-renewals and refunds: check before you pay.",
+  "sections": [
+    {
+      "h2": "Free trials usually need a card",
+      "html": "<p>The US Federal Trade Commission (FTC) warns that free trials often require a card number, so you can be charged if you do not cancel before the trial ends. Put the end date in your calendar. Before signing up, check the trial length, what you are agreeing to, how to cancel, and whether a pre-ticked box authorises later billing. Our guide to <a href=\"/free-vpn/\">free VPNs</a> covers alternatives to trials.</p>"
+    },
+    {
+      "h2": "Auto-renewals: read the renewal terms",
+      "html": "<p>The FTC describes auto-renewals as plans that continue unless you actively cancel. Many VPN offers are priced for the first term only, and the renewal price or length may differ. On the checkout page, note the renewal date, the renewal price and the cancellation method. Our <a href=\"/best-vpn/\">VPN checklist</a> explains what else to compare, and you can <a href=\"/vpn-features-explained/\">see features explained</a> before you pay for any.</p>"
+    },
+    {
+      "h2": "Your cancellation and refund rights",
+      "html": "<p>In the US, the FTC says businesses must give you a simple way to cancel automatic billing, ideally explained before you pay. If cancelling fails, dispute the charge with your card issuer, keep records, and report problems at ReportFraud.ftc.gov and to your state attorney general.</p><p>In the UK, the Consumer Contracts Regulations 2013 give a general 14-day cancellation right for most online (distance) contracts. The government has also announced new subscription rules, with reminders before a trial ends or a 12-month-plus contract renews, easier online cancellation and a 14-day cooling-off period after renewal, which it expected to come into force in Spring 2027 (government announcement, April 2026). Until they apply, rely on the current law and each provider’s terms.</p><p>Many providers also advertise a money-back guarantee, which is their own policy rather than a legal right. Read the terms on the provider’s site, for example [[link:cj4837117-pricing|NordVPN’s plan and refund terms]].</p>"
+    },
+    {
+      "h2": "A simple checkout checklist",
+      "html": "<ul><li>Screenshot the price, renewal price and renewal date.</li><li>Check whether the refund window is a legal right or the provider’s own promise.</li><li>Choose a term you will realistically use; shorter plans cost more per month but renew sooner.</li><li>Use a card or payment method you can dispute.</li><li>Set a reminder a week before renewal.</li></ul>[[button:cj4837117-pricing|Compare NordVPN plans and refund terms]]"
+    },
+    {
+      "h2": "How to cancel cleanly",
+      "html": "<p>Cancel in your account settings if the option exists, and save the confirmation email. If you bought through an app store, cancel in your Apple or Google subscription settings, not only in the VPN app. If you also use a password manager or antivirus bundle from the same company, check each renewal separately.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will a VPN free trial charge me automatically?",
+      "a": "It can. The FTC advises that trials often need a card number and you may be charged if you do not cancel in time. Check the terms and note the end date."
+    },
+    {
+      "q": "Can I get a refund on a VPN subscription?",
+      "a": "It depends. UK law gives a general 14-day cancellation right for most online contracts, and many providers add their own money-back guarantee. Read the provider’s terms for exact conditions."
+    },
+    {
+      "q": "Do VPNs raise the price when the plan renews?",
+      "a": "Some plans renew at a different price from the intro offer. The checkout page and terms should state the renewal price, so check them before you pay."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FTC: Getting in and out of free trials, auto-renewals and negative option subscriptions",
+      "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions"
+    },
+    {
+      "title": "GOV.UK: Consumers to save around £400 million every year from government crackdown on costly subscription traps",
+      "url": "https://www.gov.uk/government/news/consumers-to-save-around-400-million-every-year-from-government-crackdown-on-costly-subscription-traps"
+    },
+    {
+      "title": "legislation.gov.uk: The Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013",
+      "url": "https://www.legislation.gov.uk/uksi/2013/3134"
+    }
+  ],
+  "related": [
+    "free-vpn",
+    "best-vpn",
+    "vpn-features-explained"
+  ],
+  "updated": "2026-11-18",
+  "date": "2026-11-18",
+  "slug": "blog/vpn-free-trial-renewal-cancel",
+  "type": "post"
+}

@@ -243,6 +243,11 @@
       ]
     },
     {
+      "type": "banner",
+      "link": "cj4837117-b-faster-728",
+      "mobile": "cj4837117-b-faster-300"
+    },
+    {
       "type": "steps",
       "title": "How BestVPNs works",
       "items": [
@@ -309,5 +314,9 @@
         }
       ]
     }
-  ]
+  ],
+  "partners": [
+    "cj4837117-home"
+  ],
+  "partnersTitle": "Our VPN partner"
 }

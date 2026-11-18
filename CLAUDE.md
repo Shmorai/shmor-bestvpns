@@ -1,6 +1,6 @@
 # BestVPNs (bestvpns.shmor.ai)
 
-A Shmor marketplace (shared rules in `../../CLAUDE.md`): its own brand, design and SEO. Compares the best VPNs for privacy, streaming, speed, gaming and travel, with plain-English guides for US, UK and EU users. Repo: `Shmorai/shmor-bestvpns` (private until launch). Status: **building**, with no referral links yet.
+A Shmor marketplace (shared rules in `../../CLAUDE.md`): its own brand, design and SEO. Compares the best VPNs for privacy, streaming, speed, gaming and travel, with plain-English guides for US, UK and EU users. Repo: `Shmorai/shmor-bestvpns` (private until launch). Status: **live**, with NordVPN (CJ) referral links (see "Affiliate partners").
 
 ## Where things are
 | What | Where |
@@ -38,5 +38,11 @@ After changing `shmor-site.json` (links, keywords, card), also run `node tools/s
 3. `node tools/build.js`, then sync the master, then commit both repos.
 Likely programmes: most major VPN brands run affiliate programmes directly or via Impact, CJ, Awin or PartnerStack.
 
+## Affiliate partners (live)
+- **NordVPN** (CJ advertiser 4837117, joined; added 2026-11-18). 40% of new 1-month/1-year/2-year plans, 30-day cookie. Terms: no "NordVPN" in our domain or page URLs (slugs/images `cj4837117-*`; no `/nordvpn/` pages), no brand bidding, coupons only from the programme.
+- Codes for the **BestVPNs property (PID 101926897)**: homepage (US) / Special UK Landing (UK) `cj4837117-home` (featured), pricing, Threat Protection (now nordvpn.com/next-gen-antivirus/), deep links via link 13914989 (destination `go.nordvpn.net/aff_c?offer_id=449&aff_id=2495&url=` + encoded NordVPN page) to downloads (all, iOS, Android, Windows, Mac, Fire TV Stick). Banners (self-hosted PNGs): "Faster than ever" 729x90 + 300x250; antivirus campaign UK 728x90 + 320x50 showing NordVPN's "75% off + 3 months extra" offer (no end date in CJ: re-check it's still current, used only on free-vpn and vpn-features-explained).
+- Placed on 14 pages/posts (home banner + card, best-vpn list "NordVPN (partner link)" keeping alphabetical/unranked order + partner note, buttons on what-is-a-vpn/public-wifi/free-vpn, device app links, Threat Protection link, careful streaming/no-logs wording with no claims). `.aff-btn` uses dark text on lime here (theme override at the end of site.css).
+- Surfshark (also Nord Security) not added yet: its terms 2.2.10 restrict working with direct competitors; confirm with Surfshark first.
+
 ## Ideas / next
-Referral links · provider pages built only from verifiable facts (audits, apps, jurisdiction) · more device pages (Linux, Chromebook, Apple TV) · a social share image (`seo.image`) · a weekly blog task like the other sites.
+More VPN partners (Surfshark after confirmation) · provider pages built only from verifiable facts (audits, apps, jurisdiction) · more device pages (Linux, Chromebook, Apple TV) · a social share image (`seo.image`) · a weekly blog task like the other sites.

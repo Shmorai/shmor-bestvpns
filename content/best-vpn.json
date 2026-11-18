@@ -51,7 +51,7 @@
     },
     {
       "h2": "Well-known VPN providers to compare",
-      "html": "<p>These are some of the most widely used consumer VPN brands, listed alphabetically, not ranked. Use the checklist above on each one, and check its current audits, apps and prices on the provider’s own site.</p><ul><li>CyberGhost</li><li>ExpressVPN</li><li>IPVanish</li><li>Mullvad</li><li>NordVPN</li><li>Private Internet Access (PIA)</li><li>Proton VPN</li><li>Surfshark</li><li>Windscribe</li></ul><p>Ownership note: NordVPN and Surfshark are part of the same group (Nord Security), and ExpressVPN, CyberGhost and Private Internet Access have shared a parent company (Kape Technologies). Group ownership can change, so check the provider’s “About” page.</p>"
+      "html": "<p>These are some of the most widely used consumer VPN brands, listed alphabetically, not ranked. Use the checklist above on each one, and check its current audits, apps and prices on the provider’s own site.</p><ul><li>CyberGhost</li><li>ExpressVPN</li><li>IPVanish</li><li>Mullvad</li><li>[[link:cj4837117-home|NordVPN]] <small>(partner link)</small></li><li>Private Internet Access (PIA)</li><li>Proton VPN</li><li>Surfshark</li><li>Windscribe</li></ul><p>Ownership note: NordVPN and Surfshark are part of the same group (Nord Security), and ExpressVPN, CyberGhost and Private Internet Access have shared a parent company (Kape Technologies). Group ownership can change, so check the provider’s “About” page.</p>\n<p class=\"aff-note\">NordVPN is a partner: we may earn a commission if you buy through these links. It isn’t a ranking; use our <a href=\"/best-vpn/\">VPN checklist</a> to compare any provider.</p>"
     }
   ],
   "faqs": [
@@ -73,5 +73,9 @@
     "vpn-features-explained",
     "free-vpn",
     "vpn-for-streaming"
-  ]
+  ],
+  "partners": [
+    "cj4837117-home"
+  ],
+  "partnersTitle": "Our VPN partner"
 }

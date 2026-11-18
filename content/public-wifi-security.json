@@ -33,11 +33,11 @@
     },
     {
       "h2": "What HTTPS already protects",
-      "html": "<p>When a site uses HTTPS (the padlock in your browser), the content of your connection to it is encrypted, even on public Wi‑Fi. The network can still see which sites you connect to, though, and not every app or connection is encrypted. A VPN encrypts everything between your device and the VPN server and hides the sites you visit from the local network.</p>"
+      "html": "<p>When a site uses HTTPS (the padlock in your browser), the content of your connection to it is encrypted, even on public Wi‑Fi. The network can still see which sites you connect to, though, and not every app or connection is encrypted. A VPN encrypts everything between your device and the VPN server and hides the sites you visit from the local network.</p>\n[[banner:cj4837117-b-faster-728|cj4837117-b-faster-300]]"
     },
     {
       "h2": "Simple habits for shared networks",
-      "html": "<ul><li>Confirm the exact network name with staff.</li>\n<li>Prefer your phone’s mobile data or personal hotspot for banking.</li>\n<li>Use a VPN with auto-connect on untrusted Wi‑Fi.</li>\n<li>Mark public networks as “public” on Windows, and turn off file sharing.</li>\n<li>Keep your device and apps updated, and use two-factor authentication on important accounts.</li>\n<li>Never enter passwords on a captive portal (the Wi‑Fi login page) that asks for more than it should.</li></ul>"
+      "html": "<ul><li>Confirm the exact network name with staff.</li>\n<li>Prefer your phone’s mobile data or personal hotspot for banking.</li>\n<li>Use a VPN with auto-connect on untrusted Wi‑Fi.</li>\n<li>Mark public networks as “public” on Windows, and turn off file sharing.</li>\n<li>Keep your device and apps updated, and use two-factor authentication on important accounts.</li>\n<li>Never enter passwords on a captive portal (the Wi‑Fi login page) that asks for more than it should.</li></ul>\n<p>If you use shared networks often, a VPN app with auto-connect on untrusted Wi-Fi, such as [[link:cj4837117-home|NordVPN]], saves you remembering to switch it on.</p>\n[[button:cj4837117-pricing|See NordVPN plans]]"
     }
   ],
   "faqs": [

@@ -29,7 +29,7 @@
   "sections": [
     {
       "h2": "Setting up a VPN on your phone",
-      "html": "<ol><li>Install your provider’s app from the App Store or Google Play (check the developer name matches the provider).</li>\n<li>Sign in and allow the app to add a VPN configuration when your phone asks.</li>\n<li>Turn on auto-connect, ideally for all networks or at least untrusted Wi‑Fi.</li>\n<li>Enable the kill switch where available.</li></ol><p>On iPhone and iPad, you’ll see VPN settings under Settings → VPN once an app is installed. On Android, look under Settings → Network &amp; internet → VPN (wording varies by manufacturer).</p>"
+      "html": "<ol><li>Install your provider’s app from the App Store or Google Play (check the developer name matches the provider).</li>\n<li>Sign in and allow the app to add a VPN configuration when your phone asks.</li>\n<li>Turn on auto-connect, ideally for all networks or at least untrusted Wi‑Fi.</li>\n<li>Enable the kill switch where available.</li></ol><p>On iPhone and iPad, you’ll see VPN settings under Settings → VPN once an app is installed. On Android, look under Settings → Network &amp; internet → VPN (wording varies by manufacturer).</p>\n<p>Most providers offer apps for both, for example NordVPN for [[link:cj4837117-dl-ios|iPhone]] and [[link:cj4837117-dl-android|Android]].</p>"
     },
     {
       "h2": "Keep it on: always-on VPN",

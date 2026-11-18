@@ -32,7 +32,7 @@
     },
     {
       "h2": "VPN",
-      "html": "<p>A VPN encrypts all your device’s traffic to a server run by the provider, which then forwards it to the internet. It’s fast and easy, suits everyday privacy, public Wi‑Fi, travel and streaming, but you have to trust the provider. See <a href=\"/no-logs-vpn/\">no-logs VPNs</a>.</p>"
+      "html": "<p>A VPN encrypts all your device’s traffic to a server run by the provider, which then forwards it to the internet. It’s fast and easy, suits everyday privacy, public Wi‑Fi, travel and streaming, but you have to trust the provider. See <a href=\"/no-logs-vpn/\">no-logs VPNs</a>.</p>\n<p>If you decide a VPN fits, compare providers with our checklist; [[link:cj4837117-home|NordVPN]] is one of our partners.</p>"
     },
     {
       "h2": "Tor",

@@ -29,7 +29,7 @@
   "sections": [
     {
       "h2": "Devices that can run a VPN app",
-      "html": "<ul><li><strong>Amazon Fire TV and Fire TV Stick:</strong> many providers offer apps in the Amazon Appstore.</li>\n<li><strong>Android TV and Google TV:</strong> many providers offer apps on Google Play.</li>\n<li><strong>Apple TV:</strong> recent versions of tvOS support VPN apps, and some providers offer them.</li></ul><p>Check your provider’s list of supported devices before you subscribe.</p>"
+      "html": "<ul><li><strong>Amazon Fire TV and Fire TV Stick:</strong> many providers offer apps in the Amazon Appstore.</li>\n<li><strong>Android TV and Google TV:</strong> many providers offer apps on Google Play.</li>\n<li><strong>Apple TV:</strong> recent versions of tvOS support VPN apps, and some providers offer them.</li></ul><p>Check your provider’s list of supported devices before you subscribe.</p>\n<p>For example, NordVPN has an app for [[link:cj4837117-dl-firestick|Amazon Fire TV Stick]]; see its [[link:cj4837117-dl-all|full device list]] for routers and other devices.</p>"
     },
     {
       "h2": "Devices without VPN apps",

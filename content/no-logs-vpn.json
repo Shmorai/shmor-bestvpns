@@ -37,7 +37,7 @@
     },
     {
       "h2": "How independent audits work",
-      "html": "<p>Several providers have hired outside security and accounting firms to check their no-logs claims. Audits vary a lot, so read the report or summary and check:</p><ul><li><strong>Scope:</strong> was it the privacy policy, the server infrastructure, the apps, or all of them?</li>\n<li><strong>Date:</strong> an audit is a snapshot. Recent and repeated audits are more reassuring.</li>\n<li><strong>Access:</strong> did auditors inspect live servers and configurations, or rely on interviews and documents?</li></ul><p>Real-world events can also be evidence: some providers have had servers seized or received legal demands and been able to show that no user data was stored.</p>"
+      "html": "<p>Several providers have hired outside security and accounting firms to check their no-logs claims. Audits vary a lot, so read the report or summary and check:</p><ul><li><strong>Scope:</strong> was it the privacy policy, the server infrastructure, the apps, or all of them?</li>\n<li><strong>Date:</strong> an audit is a snapshot. Recent and repeated audits are more reassuring.</li>\n<li><strong>Access:</strong> did auditors inspect live servers and configurations, or rely on interviews and documents?</li></ul><p>Real-world events can also be evidence: some providers have had servers seized or received legal demands and been able to show that no user data was stored.</p>\n<p>Before you buy any VPN, including partners such as [[link:cj4837117-home|NordVPN]], look for its most recent audit report on its own site and check the date and scope.</p>"
     },
     {
       "h2": "Infrastructure that supports no-logs",

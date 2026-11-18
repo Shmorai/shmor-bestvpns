@@ -465,3 +465,6 @@ section h2 { font-size: clamp(25px, 3.2vw, 34px); margin-bottom: 22px; }
 @media (max-width: 760px) { .aff-banner.has-mobile .aff-b-desk { display: none; } .aff-banner.has-mobile .aff-b-mob { display: inline-block; } }
 .prose .aff-banner { margin: 2em auto; }
 .blocks-banner { padding: 8px 0; }
+
+/* BestVPNs: affiliate buttons use dark text on lime, like the site's own buttons */
+.aff-btn { color: #090C12 !important; }

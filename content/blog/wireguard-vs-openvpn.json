@@ -39,7 +39,7 @@
     },
     {
       "h2": "Which should you choose?",
-      "html": "<ul><li><strong>Everyday use, streaming and mobile:</strong> WireGuard or the provider’s WireGuard-based protocol.</li>\n<li><strong>Networks that block VPNs:</strong> OpenVPN over TCP, or your provider’s obfuscation mode.</li>\n<li><strong>Routers:</strong> whichever your router supports; WireGuard often performs better on modest hardware.</li></ul><p>Many apps have an “automatic” setting that picks for you, which is fine for most people. More on settings in <a href=\"/vpn-features-explained/\">VPN features explained</a>.</p>"
+      "html": "<ul><li><strong>Everyday use, streaming and mobile:</strong> WireGuard or the provider’s WireGuard-based protocol.</li>\n<li><strong>Networks that block VPNs:</strong> OpenVPN over TCP, or your provider’s obfuscation mode.</li>\n<li><strong>Routers:</strong> whichever your router supports; WireGuard often performs better on modest hardware.</li></ul><p>Many apps have an “automatic” setting that picks for you, which is fine for most people. More on settings in <a href=\"/vpn-features-explained/\">VPN features explained</a>.</p>\n<p>Most big providers default to a WireGuard-based protocol in their apps; check the protocol settings in your app, for example [[link:cj4837117-dl-all|NordVPN’s apps]].</p>"
     }
   ],
   "faqs": [

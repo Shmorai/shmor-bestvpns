@@ -43,7 +43,7 @@
     },
     {
       "h2": "What to look for in a streaming VPN",
-      "html": "<ul><li>Apps for your TV devices: Fire TV, Android TV/Google TV, Apple TV, or router support for devices without apps. See <a href=\"/vpn-router-smart-tv/\">VPN on routers and smart TVs</a>.</li>\n<li>Fast, nearby servers and modern protocols such as WireGuard, for HD and 4K without buffering.</li>\n<li>Servers in your home country, if you travel.</li>\n<li>Split tunnelling, so your streaming app can go direct while other apps use the VPN, or the other way round.</li>\n<li>A refund window, so you can test with your own services before committing.</li></ul>"
+      "html": "<ul><li>Apps for your TV devices: Fire TV, Android TV/Google TV, Apple TV, or router support for devices without apps. See <a href=\"/vpn-router-smart-tv/\">VPN on routers and smart TVs</a>.</li>\n<li>Fast, nearby servers and modern protocols such as WireGuard, for HD and 4K without buffering.</li>\n<li>Servers in your home country, if you travel.</li>\n<li>Split tunnelling, so your streaming app can go direct while other apps use the VPN, or the other way round.</li>\n<li>A refund window, so you can test with your own services before committing.</li></ul>\n<p>Check any provider against this list, for example [[link:cj4837117-home|NordVPN]], and test it with your own subscriptions inside the refund window.</p>"
     }
   ],
   "faqs": [

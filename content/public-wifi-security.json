@@ -29,7 +29,7 @@
   "sections": [
     {
       "h2": "What the risks really are",
-      "html": "<ul><li><strong>Fake hotspots (“evil twins”):</strong> a network named like the café’s or hotel’s, set up to capture traffic or show fake login pages.</li>\n<li><strong>Snooping on unencrypted traffic:</strong> anything not protected by HTTPS, including some apps and DNS lookups, can be seen by others on the network or by whoever runs it.</li>\n<li><strong>Exposed devices:</strong> file sharing and other services on your laptop may be visible to others on the same network.</li></ul>"
+      "html": "<ul><li><strong>Fake hotspots (“evil twins”):</strong> a network named like the café’s or hotel’s, set up to capture traffic or show fake login pages.</li>\n<li><strong>Snooping on unencrypted traffic:</strong> anything not protected by HTTPS, including some apps and DNS lookups, can be seen by others on the network or by whoever runs it.</li>\n<li><strong>Exposed devices:</strong> file sharing and other services on your laptop may be visible to others on the same network.</li></ul>\n<p>Fake login pages are a risk on any network. Using a unique password for every account, kept in a password manager such as [[link:cj5324242-home-bv|NordPass]], limits the damage if one is stolen.</p>\n[[banner:cj5324242-b-350-bv]]"
     },
     {
       "h2": "What HTTPS already protects",

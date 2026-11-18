@@ -39,7 +39,7 @@
     },
     {
       "h2": "Set up before you leave",
-      "html": "<ul><li>Install and sign in to the VPN apps <em>before</em> travelling: provider websites and app stores can be hard to reach from some countries.</li>\n<li>Turn on auto-connect for untrusted Wi‑Fi and enable the kill switch.</li>\n<li>Save servers in your home country as favourites.</li>\n<li>If networks block VPNs, try another protocol or an “obfuscation” or “stealth” mode if your provider offers one.</li>\n<li>Keep a note of your provider’s support contact, in case the app won’t connect.</li></ul>\n<p>Install and test your VPN app before you fly; for example, [[link:cj4837117-dl-all|NordVPN’s apps]] cover phones, laptops and TV sticks. Check the rules for your destination first.</p>"
+      "html": "<ul><li>Install and sign in to the VPN apps <em>before</em> travelling: provider websites and app stores can be hard to reach from some countries.</li>\n<li>Turn on auto-connect for untrusted Wi‑Fi and enable the kill switch.</li>\n<li>Save servers in your home country as favourites.</li>\n<li>If networks block VPNs, try another protocol or an “obfuscation” or “stealth” mode if your provider offers one.</li>\n<li>Keep a note of your provider’s support contact, in case the app won’t connect.</li></ul>\n<p>Install and test your VPN app before you fly; for example, [[link:cj4837117-dl-all|NordVPN’s apps]] cover phones, laptops and TV sticks. Check the rules for your destination first.</p>\n<p>Other providers work the same way; [[link:cj6282055-download|Surfshark’s apps]], for example, also cover phones, computers and TV devices.</p>"
     }
   ],
   "faqs": [

@@ -29,7 +29,7 @@
   "sections": [
     {
       "h2": "App, built-in settings or browser extension?",
-      "html": "<ul><li><strong>Provider app (recommended):</strong> the easiest way to get a kill switch, leak protection, split tunnelling and automatic updates.</li>\n<li><strong>Built-in VPN settings:</strong> Windows and macOS can connect to some VPN types (such as IKEv2) without an app, using details from your provider. Useful for work VPNs, but you may lose app-only features.</li>\n<li><strong>Browser extension:</strong> usually protects only that browser’s traffic, not your other apps. Some providers’ extensions act as a proxy rather than a full VPN.</li></ul>\n<p>Provider apps are the simplest route, for example NordVPN for [[link:cj4837117-dl-windows|Windows]] and [[link:cj4837117-dl-mac|Mac]].</p>"
+      "html": "<ul><li><strong>Provider app (recommended):</strong> the easiest way to get a kill switch, leak protection, split tunnelling and automatic updates.</li>\n<li><strong>Built-in VPN settings:</strong> Windows and macOS can connect to some VPN types (such as IKEv2) without an app, using details from your provider. Useful for work VPNs, but you may lose app-only features.</li>\n<li><strong>Browser extension:</strong> usually protects only that browser’s traffic, not your other apps. Some providers’ extensions act as a proxy rather than a full VPN.</li></ul>\n<p>Provider apps are the simplest route, for example NordVPN for [[link:cj4837117-dl-windows|Windows]] and [[link:cj4837117-dl-mac|Mac]].</p>\n<p>Surfshark also has [[link:cj6282055-download|apps for Windows and Mac]].</p>"
     },
     {
       "h2": "Settings worth turning on",

@@ -40,7 +40,7 @@
     },
     {
       "h2": "How to cancel cleanly",
-      "html": "<p>Cancel in your account settings if the option exists, and save the confirmation email. If you bought through an app store, cancel in your Apple or Google subscription settings, not only in the VPN app. If you also use a password manager or antivirus bundle from the same company, check each renewal separately.</p>"
+      "html": "<p>Cancel in your account settings if the option exists, and save the confirmation email. If you bought through an app store, cancel in your Apple or Google subscription settings, not only in the VPN app. If you also use a password manager or antivirus bundle from the same company, check each renewal separately. The same habit helps with other security apps that offer free trials, such as the [[link:rk54233-plans|Keeper password manager]]: note the date the trial ends and cancel before then if you don’t want to pay.</p>"
     }
   ],
   "faqs": [

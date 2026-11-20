@@ -36,6 +36,10 @@
       "html": "<p>Android has built-in <strong>Always-on VPN</strong> and <strong>Block connections without VPN</strong> options for each VPN app, which act as a system-level kill switch. On iPhone, VPN apps typically use an on-demand or auto-connect setting to reconnect automatically. Check your provider’s help pages for the recommended settings on your device.</p>"
     },
     {
+      "h2": "Protect the accounts on your phone too",
+      "html": "<p>A VPN protects your connection, not your logins. Your phone holds sign-ins for email, banking and shopping, so give each account its own strong password and turn on two-factor authentication. A password manager app such as [[link:rk54233-plans|Keeper]] can create, store and fill in those passwords for you on iPhone and Android.</p>\n[[banner:rk54233-b-700|rk54233-b-360]]"
+    },
+    {
       "h2": "Battery, data and speed",
       "html": "<p>Encryption uses a little extra battery and adds a small amount of data overhead. Modern protocols such as WireGuard are designed to be efficient and to reconnect quickly when you move between Wi‑Fi and mobile data. IKEv2 is also good at handling network changes.</p>"
     },

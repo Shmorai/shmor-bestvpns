@@ -39,7 +39,7 @@
     },
     {
       "h2": "What a VPN can’t do",
-      "html": "<ul><li>It doesn’t make you anonymous: accounts, cookies and browser fingerprinting can still identify you.</li>\n<li>It doesn’t stop malware or phishing on its own, though some VPNs block known bad domains.</li>\n<li>It doesn’t hide your activity from the VPN provider, which is why <a href=\"/no-logs-vpn/\">no-logs policies</a> matter.</li>\n<li>It doesn’t make illegal activity legal, or override a service’s terms.</li></ul>\n<p>For those risks you need other tools: antivirus software, such as [[link:cj6282055-antivirus|Surfshark Antivirus]], and a password manager, such as [[link:cj5324242-home-bv|NordPass]], so one stolen password can’t unlock your other accounts.</p>"
+      "html": "<ul><li>It doesn’t make you anonymous: accounts, cookies and browser fingerprinting can still identify you.</li>\n<li>It doesn’t stop malware or phishing on its own, though some VPNs block known bad domains.</li>\n<li>It doesn’t hide your activity from the VPN provider, which is why <a href=\"/no-logs-vpn/\">no-logs policies</a> matter.</li>\n<li>It doesn’t make illegal activity legal, or override a service’s terms.</li></ul>\n<p>For those risks you need other tools: antivirus software, such as [[link:cj6282055-antivirus|Surfshark Antivirus]], and a password manager, such as [[link:cj5324242-home-bv|NordPass]] or [[link:rk54233-plans|Keeper]], so one stolen password can’t unlock your other accounts.</p>"
     },
     {
       "h2": "Who needs a VPN?",

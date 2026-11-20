@@ -1,0 +1,79 @@
+{
+  "eyebrow": "Buying guide",
+  "title": "Black Friday VPN Deals: Spot Real Offers, Avoid Scams",
+  "description": "Shopping for a VPN or any Black Friday deal? FTC-backed tips to spot fake sites, check renewal prices, pay safely and protect yourself on public Wi-Fi.",
+  "h1": "Black Friday and Cyber Monday VPN deals: how to spot real offers and avoid scams",
+  "intro": "Black Friday week fills inboxes and ads with \"deals\", and scammers use the same noise. Whether you are buying a VPN or anything else online, a few official-source checks keep your money and accounts safer.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1545184180-25d471fe75eb",
+    "alt": "Man drinking coffee while using a laptop in a café",
+    "credit": "Kyle Loftus",
+    "creditUrl": "https://unsplash.com/@kyleloftusstudios"
+  },
+  "keywords": [
+    "black friday vpn deals",
+    "cyber monday vpn",
+    "vpn deals scam",
+    "fake vpn website",
+    "how to spot fake online store",
+    "safe online shopping public wifi",
+    "vpn discount legit",
+    "vpn renewal price"
+  ],
+  "cardText": "How to check a VPN deal is real, and shop safely this week.",
+  "sections": [
+    {
+      "h2": "Go to the provider's own site, not the ad",
+      "html": "<p>The US Federal Trade Commission (FTC) warns that fake ads often run on social media and that scammers copy real logos and photos. Rather than clicking an ad or email, type the provider's address yourself or use a bookmark. Check the spelling of the address carefully. The FTC also notes that a padlock or https address does not prove a site is legitimate, because scammers can encrypt their sites too.</p>"
+    },
+    {
+      "h2": "Be wary of prices that are too good to be true",
+      "html": "<p>The FTC says very cheap name-brand goods could be counterfeit or stolen, and says to search the seller's name with words like \"complaint\" or \"scam\" and not to rely on star ratings alone. For a VPN, a lifetime plan at a tiny price from a site you have never heard of is a reason to stop and check, since a VPN can see your connection details. Read our <a href=\"/best-vpn/\">VPN checklist</a> for what a trustworthy provider shows publicly.</p>"
+    },
+    {
+      "h2": "Read the renewal terms before the discount",
+      "html": "<p>Many VPN offers apply to the first term only. Note the renewal price, renewal date and how to cancel, and screenshot them at checkout. Our guide to <a href=\"/blog/vpn-free-trial-renewal-cancel/\">VPN free trials, renewals and cancelling</a> covers refund rights in the US and UK. Provider discounts change often, so check the current price on the provider's own site: for example, you can [[link:cj4837117-pricing|compare NordVPN plans on its own site]] (partner link).</p>"
+    },
+    {
+      "h2": "Pay in a way you can dispute",
+      "html": "<p>The FTC says paying by credit card best protects you if something goes wrong, because you can dispute charges. If you spot an error, contact your card issuer quickly; the FTC says to write to them within 60 days of the first bill showing the error. Avoid sellers who insist on gift cards, wire transfers, payment apps or cryptocurrency. Keep order confirmations, the return policy and the seller's messages.</p>"
+    },
+    {
+      "h2": "Shopping on public Wi-Fi",
+      "html": "<p>If you shop on the move, a VPN encrypts traffic between your device and the VPN server, which helps on untrusted networks, though it will not stop you buying from a fake site or entering your card on a scam page. Read our <a href=\"/public-wifi-security/\">public Wi-Fi security guide</a> for habits that matter most. Some providers advertise a plan aimed at public Wi-Fi use, for example [[link:cj5887918-wifi|HideMy.Name's public Wi-Fi VPN]] (partner link); check its terms and refund policy first.</p>[[button:cj5887918-wifi|See HideMy.Name's VPN plans]]"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are Black Friday VPN deals real?",
+      "a": "Many providers run genuine sales, but prices and terms change. Check the offer on the provider's own site, note the renewal price and read the refund terms."
+    },
+    {
+      "q": "Does a VPN protect me from shopping scams?",
+      "a": "No. A VPN encrypts your connection but cannot tell you whether a shop is genuine. Check the seller, pay by credit card where possible and keep records."
+    },
+    {
+      "q": "How do I pay safely for online deals?",
+      "a": "The FTC says credit cards offer the strongest protection because you can dispute a charge. Avoid sellers demanding gift cards, wire transfers, apps or crypto."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FTC: Online Shopping",
+      "url": "https://consumer.ftc.gov/articles/online-shopping"
+    },
+    {
+      "title": "FTC: How to avoid an online shopping scam this holiday season",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2025/11/how-avoid-online-shopping-scam-holiday-season"
+    }
+  ],
+  "related": [
+    "best-vpn",
+    "public-wifi-security",
+    "blog/vpn-free-trial-renewal-cancel"
+  ],
+  "updated": "2026-11-20",
+  "date": "2026-11-20",
+  "slug": "blog/black-friday-vpn-deals-scam-checks",
+  "type": "post"
+}

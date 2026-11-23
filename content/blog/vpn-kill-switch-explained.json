@@ -1,0 +1,75 @@
+{
+  "title": "VPN Kill Switch Explained: Do You Need One?",
+  "description": "What a VPN kill switch does, why traffic can leak when a VPN drops, how always-on connections help and what to check in your settings before relying on one.",
+  "h1": "VPN kill switch explained: what it does and whether you need one",
+  "eyebrow": "VPN features",
+  "intro": "A VPN only protects the traffic that goes through it. If the connection drops for a moment, your device may quietly carry on using the ordinary network. A kill switch is the feature meant to stop that. Here is how it works, where it helps and what to check.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+    "alt": "Close-up of a blue network cable",
+    "credit": "Jordan Harrison",
+    "creditUrl": "https://unsplash.com/@jouwdan"
+  },
+  "keywords": [
+    "vpn kill switch",
+    "what is a vpn kill switch",
+    "do i need a kill switch",
+    "vpn kill switch not working",
+    "always on vpn",
+    "vpn drops connection",
+    "vpn leak protection",
+    "kill switch vs auto connect"
+  ],
+  "cardText": "What a VPN kill switch is, why it matters and how to check yours works.",
+  "sections": [
+    {
+      "h2": "What a VPN kill switch does",
+      "html": "<p>A kill switch is a setting, offered by many VPN apps, that blocks internet traffic if the VPN connection drops, until the tunnel comes back. Without it, a dropped connection can leave apps sending data over your normal connection, with your real IP address visible. Names and behaviour differ between apps, and some only block selected apps, so read your provider's own help pages for what yours does.</p>"
+    },
+    {
+      "h2": "Why only the traffic inside the VPN is protected",
+      "html": "<p>The UK's National Cyber Security Centre (NCSC) makes the principle clear in its VPN guidance for devices: only traffic routed over the VPN is protected, so it recommends forcing all traffic through it. Where that is not possible, it describes this as a risk to your data. It also warns that per-app VPN setups increase the chance that sensitive data goes outside the tunnel if an app is left out. The NCSC guidance is written for organisations, but the principle applies to home users too.</p>"
+    },
+    {
+      "h2": "Always-on versus a manual connection",
+      "html": "<p>The NCSC advises using an automatic VPN, which is brought up by the device whenever software asks for a network connection. If connecting is manual and optional, the device can be exposed to attack from other people on an untrusted network while it is disconnected. In consumer apps this usually appears as \"auto-connect\", \"always-on VPN\" or \"launch at startup\". A kill switch and auto-connect work together: auto-connect gets you protected quickly, and the kill switch covers the gaps if it drops.</p>"
+    },
+    {
+      "h2": "When a kill switch matters most",
+      "html": "<ul><li>On public Wi-Fi in cafés, airports and hotels. See our <a href=\"/public-wifi-security/\">public Wi-Fi security guide</a>.</li><li>When travelling, where connections are patchy and VPNs reconnect often. See <a href=\"/vpn-for-travel/\">VPN for travel</a>.</li><li>When you have a specific privacy reason to keep your real IP address hidden.</li></ul><p>For everyday browsing on a trusted home network, a brief drop is less serious, though you may still prefer the safer default.</p>"
+    },
+    {
+      "h2": "How to check yours works",
+      "html": "<p>Do not just assume the setting works. Switch it on, connect to a server, then test the behaviour: for example, turn off your Wi-Fi briefly or switch networks, and see whether your apps stay offline until the VPN reconnects. Then run the checks in our <a href=\"/blog/vpn-leak-test/\">VPN leak test guide</a>. Also remember that a kill switch does not make a VPN anonymous or fix other privacy gaps. Our <a href=\"/vpn-features-explained/\">VPN features explained</a> page covers what else to look for.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is a VPN kill switch?",
+      "a": "A feature that blocks internet traffic if the VPN connection drops, so your device does not carry on using the ordinary connection until the VPN returns."
+    },
+    {
+      "q": "Is a kill switch the same as auto-connect?",
+      "a": "No. Auto-connect starts the VPN automatically, and the kill switch blocks traffic if the VPN drops. They cover different moments, so using both is safest."
+    },
+    {
+      "q": "Do I need a kill switch at home?",
+      "a": "It matters most on untrusted networks such as public Wi-Fi. At home it is less critical, but turning it on does no harm if it does not interrupt the way you use the internet."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NCSC (UK): Device security guidance, virtual private networks",
+      "url": "https://www.ncsc.gov.uk/collection/device-security-guidance/infrastructure/virtual-private-networks"
+    }
+  ],
+  "related": [
+    "vpn-features-explained",
+    "blog/vpn-leak-test",
+    "public-wifi-security"
+  ],
+  "date": "2026-11-23",
+  "updated": "2026-11-23",
+  "slug": "blog/vpn-kill-switch-explained",
+  "type": "post"
+}

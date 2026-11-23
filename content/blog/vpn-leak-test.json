@@ -78,6 +78,7 @@
   "related": [
     "vpn-features-explained",
     "what-is-a-vpn",
-    "blog/wireguard-vs-openvpn"
+    "blog/wireguard-vs-openvpn",
+    "blog/vpn-kill-switch-explained"
   ]
 }

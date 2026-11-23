@@ -63,6 +63,7 @@
     "best-vpn",
     "blog/wireguard-vs-openvpn",
     "blog/vpn-leak-test",
-    "no-logs-vpn"
+    "no-logs-vpn",
+    "blog/vpn-kill-switch-explained"
   ]
 }

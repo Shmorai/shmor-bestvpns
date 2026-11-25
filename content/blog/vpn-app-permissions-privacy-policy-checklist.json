@@ -1,0 +1,92 @@
+{
+  "title": "VPN App Permissions and Privacy Policy Checklist",
+  "description": "Before you install a VPN app, check its permissions, privacy policy and encryption. A plain-English checklist based on FTC advice for US, UK and EU users.",
+  "eyebrow": "VPN basics",
+  "h1": "VPN app permissions and privacy policies: what to check before you install",
+  "intro": "A VPN app can see a great deal of your internet traffic, so you are trusting its maker with a lot. The FTC, the US consumer regulator, warns that a VPN promising privacy is not automatically trustworthy. Here is a short checklist to run before you install a VPN on your phone or computer.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1614064643392-8dd713152ae9",
+    "alt": "Pink and silver padlock resting on a black computer keyboard",
+    "credit": "FlyD",
+    "creditUrl": "https://unsplash.com/@flyd2069"
+  },
+  "keywords": [
+    "vpn app permissions",
+    "vpn privacy policy",
+    "is my vpn safe",
+    "how to choose a vpn app",
+    "check vpn before installing",
+    "vpn data sharing",
+    "free vpn risks",
+    "safe vpn app checklist",
+    "vpn logging policy"
+  ],
+  "cardText": "A plain-English checklist for judging a VPN app's permissions, privacy policy and encryption.",
+  "sections": [
+    {
+      "h2": "What a VPN does, and what it doesn't",
+      "html": "<p>The FTC explains that a VPN app routes your device's traffic through the provider's servers, so a website sees the VPN server rather than your own connection, and some apps also encrypt the link between your device and the server. It hides the content of your traffic from your internet provider or a public Wi-Fi network, but the FTC is clear that it <strong>doesn't make you anonymous</strong>. New to the topic? Start with <a href=\"/what-is-a-vpn/\">what is a VPN?</a></p>"
+    },
+    {
+      "h2": "1. Look at the permissions it asks for",
+      "html": "<p>Because you are letting the app handle all of your internet traffic, the FTC suggests asking whether any sensitive permission, such as reading your text messages, makes sense for what the app does, and whether you trust the developer with that access. A VPN needs permission to set up a VPN connection; it rarely needs your contacts, messages or precise location. If a permission has nothing to do with connecting you securely, don't install it, or deny it if the system allows."
+    },
+    {
+      "h2": "2. Read the privacy policy, especially data sharing",
+      "html": "<p>The FTC notes that many VPN apps are free because they sell advertising or share your information with, or redirect your traffic through, third parties. Check what the policy says about:</p><ul><li>what data is collected (connection times, IP address, device identifiers, browsing activity)</li><li>whether it is shared with advertisers or analytics firms</li><li>how long data is kept</li><li>which company runs the service, and where it is based</li></ul><p>Our guide to <a href=\"/no-logs-vpn/\">no-logs VPNs</a> explains what such claims mean and don't, and why an independent audit is stronger evidence than a marketing line. Our <a href=\"/free-vpn/\">free VPN</a> page covers the trade-offs of paying with your data.</p>"
+    },
+    {
+      "h2": "3. Check how it encrypts and which protocol it uses",
+      "html": "<p>The FTC warns that some VPN apps use protocols that don't encrypt your traffic, or only some of it. Look for a clear statement of the protocols supported, ideally modern ones such as WireGuard or OpenVPN (see <a href=\"/blog/wireguard-vs-openvpn/\">WireGuard vs OpenVPN</a>), and test the app once installed: our <a href=\"/blog/vpn-leak-test/\">VPN leak test guide</a> shows how to check for DNS and IP leaks.</p>"
+    },
+    {
+      "h2": "4. Check the source of the app and the reviews",
+      "html": "<p>Install only from your platform's official store or the provider's own website. The FTC suggests looking for outside reviews from sources you respect, as well as the app's screenshots, description, content rating and user reviews. Be wary of near-identical apps with unfamiliar names, and of apps that give no company details or support contact. Remember that reviews and ratings can be manipulated: they are a clue, not proof.</p>"
+    },
+    {
+      "h2": "5. Check the price, refund and renewal terms",
+      "html": "<p>Introductory deals often renew at a higher price. Check the refund window and how to cancel before you pay: our <a href=\"/blog/vpn-free-trial-renewal-cancel/\">free trial and renewal guide</a> has the details. If you are shortlisting a paid provider, read its own privacy policy and app permissions the same way, for example <a href=\"/best-vpn/\">on our unranked list of well-known providers</a>, including [[link:cj6282055-home|Surfshark]] and [[link:cj4837117-pricing|NordVPN's plan and refund terms]]. We earn a commission if you buy through partner links, at no extra cost to you; it does not change this checklist.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is a free VPN app safe?",
+      "a": "Some are, but the FTC notes many free VPN apps make money from ads or by sharing your information, or redirect traffic through third parties. Read the privacy policy before you install one."
+    },
+    {
+      "q": "What permissions does a VPN app need?",
+      "a": "It needs permission to create a VPN connection. The FTC suggests asking whether any other sensitive permission, such as reading text messages, makes sense for the app's purpose."
+    },
+    {
+      "q": "Does a VPN make me anonymous?",
+      "a": "No. The FTC says a VPN app typically hides the content of your traffic from your internet or Wi-Fi provider but doesn't make you anonymous."
+    },
+    {
+      "q": "Can I trust an app's \"no logs\" claim?",
+      "a": "Treat it as a claim to check. Read the actual privacy policy and look for independent audits or published transparency reports."
+    }
+  ],
+  "sources": [
+    {
+      "title": "FTC: Shopping for a VPN app? Read this.",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2018/02/shopping-vpn-app-read"
+    },
+    {
+      "title": "FTC: FTC provides tips for using VPN apps",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2018/02/ftc-provides-tips-using-vpn-apps"
+    },
+    {
+      "title": "FTC: Cybersecurity for small business, secure remote access",
+      "url": "https://www.ftc.gov/business-guidance/blog/2019/02/cybersecurity-small-business-secure-remote-access"
+    }
+  ],
+  "related": [
+    "what-is-a-vpn",
+    "blog/vpn-leak-test",
+    "free-vpn"
+  ],
+  "date": "2026-11-25",
+  "updated": "2026-11-25",
+  "slug": "blog/vpn-app-permissions-privacy-policy-checklist",
+  "type": "post"
+}

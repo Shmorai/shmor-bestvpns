@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-27",
+  "updated": "2026-11-27",
+  "slug": "blog/vpn-new-devices-christmas-setup",
+  "type": "post",
+  "title": "New Gadgets for Christmas? Secure Them and Set Up a VPN",
+  "description": "Got a new phone, laptop or smart TV this Christmas? Set it up securely: update, change default passwords, turn on 2-step login and decide where a VPN helps.",
+  "eyebrow": "Setup guide",
+  "h1": "New devices for Christmas: a security checklist and where a VPN fits in",
+  "intro": "A new phone, laptop, tablet or smart speaker is exciting, and the first ten minutes of setup matter more than most people think. Here is a short checklist based on UK and US official guidance, plus an honest look at which of your new gadgets can actually run a VPN.",
+  "image": {
+    "src": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+    "alt": "Close-up of a blue network cable",
+    "credit": "Jordan Harrison",
+    "creditUrl": "https://unsplash.com/@jouwdan"
+  },
+  "sections": [
+    {
+      "h2": "Step 1: update before you do anything else",
+      "html": "<p>A device that has sat in a warehouse and a shop may be months behind on security fixes. The UK's National Cyber Security Centre (NCSC) advises turning on <strong>automatic updates</strong> where they are offered and treating update prompts as important rather than something to skip. The US Cybersecurity and Infrastructure Security Agency (CISA) gives the same advice for connected devices and for the router that links them. Do this first, before you sign in to email or banking.</p>"
+    },
+    {
+      "h2": "Step 2: replace default passwords and turn on 2-step verification",
+      "html": "<p>CISA calls swapping factory-default passwords one of the most important steps for protecting smart devices and recommends a unique, complex password for each. The NCSC suggests a long password made of three random words, and says to switch on <strong>two-step verification (2SV)</strong> wherever it is offered, because it makes accounts much harder to take over even if a password leaks. A password manager makes unique passwords painless. If your accounts support passkeys, the NCSC now recommends using them. UK law (in force since April 2024) also bans manufacturers from selling smart devices with universal default passwords, but older stock and imports may still have them, so check.</p>"
+    },
+    {
+      "h2": "Step 3: look after your router and Wi-Fi",
+      "html": "<p>Every gadget connects through your router, so keep its firmware current (CISA says to check the maker's site for the latest version), change its admin password and use a strong Wi-Fi password. CISA also suggests putting smart-home gadgets on a separate network from computers that hold valuable data, and asking whether each device really needs internet access at all. Many routers have a \"guest network\" setting that does this job.</p>"
+    },
+    {
+      "h2": "Which new devices can run a VPN?",
+      "html": "<p>A VPN encrypts traffic between a device and the VPN provider's server. It does not fix weak passwords, missing updates or scams, so treat it as one layer. Support varies:</p><ul><li><strong>Phones and tablets (iPhone, iPad, Android):</strong> native apps from most providers. See our <a href=\"/vpn-for-iphone-android/\">VPN for iPhone and Android guide</a>, or go straight to [[link:cj4837117-dl-all|NordVPN's apps]].</li><li><strong>Windows and Mac laptops:</strong> full apps, usually with a kill switch. See <a href=\"/vpn-for-windows-mac/\">VPN for Windows and Mac</a> and our <a href=\"/blog/vpn-kill-switch-explained/\">kill switch explainer</a>.</li><li><strong>Smart TVs, consoles, speakers and many streaming sticks:</strong> often no VPN app at all. Options include a VPN-capable router or a few supported platforms; see <a href=\"/vpn-router-smart-tv/\">VPN for routers and smart TVs</a>.</li><li><strong>Smart-home gadgets (cameras, plugs, bulbs):</strong> you generally cannot install a VPN on them. Secure them with passwords, updates and a separate network instead.</li></ul>"
+    },
+    {
+      "h2": "Where a VPN genuinely helps with new gadgets",
+      "html": "<p>The clearest benefit is on <strong>other people's networks</strong>: hotel, airport, café and train Wi-Fi when you travel with the new laptop or phone over the holidays. Our guide to <a href=\"/public-wifi-security/\">public Wi-Fi security</a> explains the risks and the limits. A VPN also stops your internet provider seeing which sites you visit, though the VPN provider can see more, which is why <a href=\"/no-logs-vpn/\">no-logs claims</a> and independent audits matter. If you are new to the idea, start with <a href=\"/what-is-a-vpn/\">what a VPN is</a>.</p>[[button:cj4837117-pricing|Compare NordVPN plans and refund terms]]"
+    },
+    {
+      "h2": "A quick checklist",
+      "html": "<ul><li>Update the system and apps; switch on automatic updates.</li><li>Set a unique password or passphrase; add 2SV or a passkey to key accounts.</li><li>Update the router and change its default admin password.</li><li>Put smart gadgets on a guest or separate network.</li><li>Install a VPN on phones and laptops you take on the road, and check its kill switch is on.</li><li>Read what permissions each new app asks for: see our <a href=\"/blog/vpn-app-permissions-privacy-policy-checklist/\">app permissions checklist</a>.</li></ul>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a VPN on a new phone or laptop?",
+      "a": "Not strictly. Updates, strong unique passwords and 2-step verification protect you most. A VPN adds privacy on public or shared Wi-Fi and hides your browsing from your internet provider, so it is most useful for devices you travel with."
+    },
+    {
+      "q": "Can I install a VPN on a smart TV or smart speaker?",
+      "a": "Often not. Many smart TVs, speakers and cameras have no VPN app. The usual workarounds are a router that supports VPN or a streaming device with a supported app. Check your device's manual."
+    },
+    {
+      "q": "Should I change the default password on a new gadget?",
+      "a": "Yes. CISA says replacing factory-default passwords is one of the most important steps, and the NCSC recommends a long password such as three random words."
+    },
+    {
+      "q": "Is it safe to set up a new device on public Wi-Fi?",
+      "a": "It is better to do first-time setup and updates on your own trusted home network, then use a VPN and 2-step verification when you connect elsewhere."
+    }
+  ],
+  "sources": [
+    {
+      "title": "NCSC (UK): Smart devices: using them safely in your home",
+      "url": "https://www.ncsc.gov.uk/guidance/smart-devices-in-the-home"
+    },
+    {
+      "title": "NCSC (UK): Smart devices, new law helps citizens to choose secure products",
+      "url": "https://www.ncsc.gov.uk/blog-post/smart-devices-law"
+    },
+    {
+      "title": "CISA (US): Home network security",
+      "url": "https://www.cisa.gov/news-events/news/home-network-security"
+    },
+    {
+      "title": "CISA (US): Internet of Things tip sheet",
+      "url": "https://www.cisa.gov/sites/default/files/publications/Internet-of-Things-Tip-Sheet-122019-508.pdf"
+    }
+  ],
+  "related": [
+    "vpn-for-iphone-android",
+    "vpn-router-smart-tv",
+    "blog/vpn-kill-switch-explained"
+  ],
+  "keywords": [
+    "vpn for new phone",
+    "secure new laptop",
+    "set up new smart tv vpn",
+    "new device security checklist",
+    "change default password router",
+    "smart home security uk",
+    "vpn christmas gadgets",
+    "do i need a vpn on my phone",
+    "two step verification setup"
+  ],
+  "cardText": "A secure-setup checklist for Christmas gadgets, and which ones can run a VPN."
+}
